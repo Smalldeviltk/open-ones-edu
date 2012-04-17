@@ -3,3 +3,8 @@ C:\Users\Bin\Downloads\Desktop\39add2n\39_ADD2N\39_ADD2N\bin\Debug\39_ADD2N.pdb
 C:\Users\Bin\Downloads\Desktop\39add2n\39_ADD2N\39_ADD2N\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Bin\Downloads\Desktop\39add2n\39_ADD2N\39_ADD2N\obj\x86\Debug\39_ADD2N.exe
 C:\Users\Bin\Downloads\Desktop\39add2n\39_ADD2N\39_ADD2N\obj\x86\Debug\39_ADD2N.pdb
+C:\Users\Bin\Downloads\Desktop\39CSharp\39_ADD2N_Trinh Duy Thanh\39_ADD2N\obj\x86\Debug\39_ADD2N.exe
+C:\Users\Bin\Downloads\Desktop\39CSharp\39_ADD2N_Trinh Duy Thanh\39_ADD2N\obj\x86\Debug\39_ADD2N.pdb
+C:\Users\Bin\Downloads\Desktop\39CSharp\39_ADD2N_Trinh Duy Thanh\39_ADD2N\bin\Debug\39_ADD2N.exe
+C:\Users\Bin\Downloads\Desktop\39CSharp\39_ADD2N_Trinh Duy Thanh\39_ADD2N\bin\Debug\39_ADD2N.pdb
+C:\Users\Bin\Downloads\Desktop\39CSharp\39_ADD2N_Trinh Duy Thanh\39_ADD2N\obj\x86\Debug\ResolveAssemblyReference.cache
