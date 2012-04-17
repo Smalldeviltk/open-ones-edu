@@ -28,17 +28,20 @@ namespace _39_ADD2N
             }
             else
             {
-                if (!Add.IsValid(strSplitInput[1]))
-                {
-                    Console.WriteLine("{0} is not valid string", strSplitInput[1]);
-                }
-                if (!Add.IsValid(strSplitInput[2]))
-                {
-                    Console.WriteLine("{0} is not valid string", strSplitInput[2]);
-                }
                 if (!Add.IsValid(strSplitInput[1]) && !Add.IsValid(strSplitInput[2]))
                 {
-                    Console.WriteLine("{0} {1} are not valid string", strSplitInput[1], strSplitInput[2]);
+                    Console.WriteLine("{0}, {1} are not valid string", strSplitInput[1], strSplitInput[2]);
+                }
+                else
+                {
+                    if (!Add.IsValid(strSplitInput[1]))
+                    {
+                        Console.WriteLine("{0} is not valid string", strSplitInput[1]);
+                    }
+                    if (!Add.IsValid(strSplitInput[2]))
+                    {
+                        Console.WriteLine("{0} is not valid string", strSplitInput[2]);
+                    }
                 }
 
             }
