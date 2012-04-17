@@ -73,17 +73,21 @@ namespace _11__Add2N
             // Kiem tra cau truc nhap vao dung hay sai
             KiemTra();
             // Neu khong co loi thi thuc hien tinh toan
+
             if (check)
             {
                 int du = 0; // Luu so du khi cong
                 int tong; // Luu ket qua
-                string[] temp = number;
 
-                while (temp[1].Length < temp[2].Length) temp[1] = '0' + temp[1];
-                while (temp[2].Length < temp[1].Length) temp[2] = '0' + temp[2];
+                int length = number[1].Length - number[2].Length;
+
+                // tinh toan de lay ket qua phep tinh
+                while (number[1].Length < number[2].Length) number[1] = '0' + number[1];
+                while (number[2].Length < number[1].Length) number[2] = '0' + number[2];
+
                 for (int i = number[1].Length - 1; i >= 0; i--)
                 {
-                    tong = temp[1][i] + temp[2][i] - 96 + du;
+                    tong = number[1][i] + number[2][i] - 96 + du;
                     result = (char)((tong % 10) + 48) + result;
                     du = tong / 10;
                 }
@@ -91,6 +95,27 @@ namespace _11__Add2N
                 {
                     result = (char)(du % 10 + 48) + result;
                     du /= 10;
+                }
+
+                if (length > 0)
+                {
+                    string returnNum = null;
+                    for (int i = 0; i < (number[1].Length - length); i++)
+                    {
+                        char charNum = number[2][(i + length)];
+                        returnNum += Convert.ToString(charNum);
+                    }
+                    number[2] = returnNum;
+                }
+                else
+                {
+                    string returnNum = null;
+                    for (int i = 0; i < (number[2].Length - Math.Abs(length)); i++)
+                    {
+                        char charNum = number[1][(i + Math.Abs(length))];
+                         returnNum += Convert.ToString(charNum);
+                    }
+                    number[1] = returnNum;
                 }
                 return "\tKET QUA: " + number[1] + " + " + number[2] + " = " + result;
             }

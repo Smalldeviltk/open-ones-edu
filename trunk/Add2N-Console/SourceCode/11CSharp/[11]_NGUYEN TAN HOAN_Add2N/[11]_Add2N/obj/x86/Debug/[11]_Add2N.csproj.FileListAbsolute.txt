@@ -8,3 +8,8 @@ C:\Users\TANHOAN\Desktop\[11]_Add2N\[11]_Add2N\obj\x86\Debug\[11]_Add2N.pdb
 C:\Users\TANHOAN\Desktop\[11]_Add2N\[11]_Add2N\bin\Debug\[11]_Add2N.exe
 C:\Users\TANHOAN\Desktop\[11]_Add2N\[11]_Add2N\bin\Debug\[11]_Add2N.pdb
 C:\Users\TANHOAN\Desktop\[11]_Add2N\[11]_Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\TANHOAN\Desktop\open-ones-edu\Add2N-Console\SourceCode\11CSharp\[11]_NGUYEN TAN HOAN_Add2N\[11]_Add2N\obj\x86\Debug\[11]_Add2N.exe
+C:\Users\TANHOAN\Desktop\open-ones-edu\Add2N-Console\SourceCode\11CSharp\[11]_NGUYEN TAN HOAN_Add2N\[11]_Add2N\obj\x86\Debug\[11]_Add2N.pdb
+C:\Users\TANHOAN\Desktop\open-ones-edu\Add2N-Console\SourceCode\11CSharp\[11]_NGUYEN TAN HOAN_Add2N\[11]_Add2N\bin\Debug\[11]_Add2N.exe
+C:\Users\TANHOAN\Desktop\open-ones-edu\Add2N-Console\SourceCode\11CSharp\[11]_NGUYEN TAN HOAN_Add2N\[11]_Add2N\bin\Debug\[11]_Add2N.pdb
+C:\Users\TANHOAN\Desktop\open-ones-edu\Add2N-Console\SourceCode\11CSharp\[11]_NGUYEN TAN HOAN_Add2N\[11]_Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
