@@ -1,0 +1,5 @@
+E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N.exe
+E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N.pdb
+E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
