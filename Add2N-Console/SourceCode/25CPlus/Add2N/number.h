@@ -13,6 +13,9 @@
  *
  *					16.04.12	-	Vu Vuong Hiep		Create Number class
  *														Description: create structure and constructors
+ *
+ *					16.04.12	-	Doan Quang Khoi		Create Number class
+ *														Description: Operator+ & Operator<<
  * --
 ***********************************************************************************************************/
 
@@ -90,6 +93,64 @@ public:
 		return length;
 	}
 
+	/*
+	 * Oveload operator + using to use to add 2 number
+	 */
+	friend Number operator+(Number &Num1, Number &Num2) {
+		int Remember = 0; //Define the memory
+		Number *nResult = new Number(); //To store the result
+		Number Max = Num2; //Determine the max "Number"
+		if (Num1.Length() > Num2.Length())
+			Max = Num1;
+		
+		subNumber *stopflag = Max.pTail; //Stopflag to determine when to stop looping elements
+		subNumber *N1 = Num1.pTail; //The first number
+		subNumber *N2 = Num2.pTail; //The second number
+
+		while(stopflag != NULL) { //Stop whenever stopflag == NULL
+			//Convert to int if the element is not NULL
+			int sN1 = 0, sN2 = 0;
+			if (N1 != NULL)
+				sN1 = N1->ToInt(); 
+			if (N2 != NULL)
+				sN2 = N2->ToInt();
+
+			//Get the result and the value to remember
+			int Result = (sN1 + sN2 + Remember) % 10;
+			Remember = (sN1 + sN2 + Remember) / 10;
+			
+			//Create new subNumber element of the result
+			subNumber *sResult = new subNumber(Result);
+			//Add to result
+			nResult->AddHead(sResult);
+
+			//Take to the previous element
+			stopflag = stopflag->pPrev;
+			if (N1 != NULL) N1 = N1->pPrev;
+			if (N2 != NULL) N2 = N2->pPrev;
+		}
+
+		//Checking memory when calculation completed
+		if (Remember > 0) {
+			subNumber *last = new subNumber(Remember);
+			nResult->AddHead(last);
+		}
+
+		//return the result
+		return *nResult;
+	}
+	
+	/*
+	 * Oveload operator << using in cout<<(Number)
+	 */
+	friend ostream &operator<<(ostream &stream, Number num) {
+		subNumber *current = num.pHead;
+		while(current != NULL) {
+			stream<<current->num; //output the element value
+			current = current->pNext;
+		}
+		return stream;
+	}
 };
 
 
