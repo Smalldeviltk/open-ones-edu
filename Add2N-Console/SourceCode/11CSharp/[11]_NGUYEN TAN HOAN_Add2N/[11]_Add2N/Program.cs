@@ -18,6 +18,11 @@ namespace _11__Add2N
                 string t = Console.ReadLine().Trim();
                 if (t.Equals("1") || t.ToLowerInvariant().Equals("co"))
                     goto c;
+                else
+                {
+                    Console.WriteLine("**************************************\n\t\tExit");
+                    Console.ReadLine();
+                }
         }
     }
 }
