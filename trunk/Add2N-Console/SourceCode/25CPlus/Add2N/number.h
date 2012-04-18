@@ -27,7 +27,7 @@
 #include <iostream>
 
 using namespace std;
-class subNumber { //subNumber in a sequent of number
+class subNumber { //subNumber in a sequence of number
 public:
 	char num;
 	subNumber *pNext; //Pointer to the next subNumber
