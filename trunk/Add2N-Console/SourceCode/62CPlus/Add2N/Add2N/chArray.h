@@ -25,5 +25,5 @@ public:
 	void setPChar(char*);
 	int wGetNumChars();
 	char* pGetPChar();
-}
+};
 #endif

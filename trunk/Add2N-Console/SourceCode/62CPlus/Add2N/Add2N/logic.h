@@ -14,7 +14,8 @@ class logic
 private:
 	int wMax(int, int);
 public:
+	logic();
 	chArray pAdd2N(chArray, chArray);
-}
+};
 
 #endif

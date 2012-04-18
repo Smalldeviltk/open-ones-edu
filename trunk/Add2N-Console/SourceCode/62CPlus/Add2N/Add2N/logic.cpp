@@ -1,6 +1,13 @@
 #include "chArray.h"
 #include "logic.h"
 
+/************************************************
+Method Name:	logic::logic();
+Description:    construction
+*************************************************/
+logic::logic()
+{
+}
 /**************************************************
 Method Name:	logic::wMax(int wTempA, int wTampB)
 Description:    compare two number
@@ -29,8 +36,9 @@ Variable		chArrSum: result of this equation
 **************************************************/
 chArray logic::pAdd2N(chArray chArrNumA, chArray chArrNumB)
 {
-	int wMax = this->wMax(chArrNumA.wGetNumChars(), chArrNumB.wGetNumChars());
-	chArray chArrSum(wMax + 2);
+	int wMaximum;
+	wMaximum = wMax(chArrNumA.wGetNumChars(), chArrNumB.wGetNumChars());
+	chArray chArrSum(wMaximum);
 
 	char chTemp = '0';
 	char *pcharA, *pcharB, *pcharSum;
@@ -42,9 +50,9 @@ chArray logic::pAdd2N(chArray chArrNumA, chArray chArrNumB)
 	pcharB = chArrNumB.pGetPChar();
 	pcharSum = chArrSum.pGetPChar();
 
-	for (int i = 0; i < wMax; i++)
+	for (int i = 0; i < wMaximum; i++)
 	{
-		chTemp += pcharA[i] + pcharB[i];
+		chTemp += pcharA[i] + pcharB[i] - 48*2;
 		if (chTemp > '9')
 		{
 			pcharSum[i] = '0';
@@ -56,6 +64,7 @@ chArray logic::pAdd2N(chArray chArrNumA, chArray chArrNumB)
 			chTemp = '0';
 		}
 	}
+	if (chTemp != '0') pcharSum[wMaximum] = chTemp;
 	chArrSum.invertChars();
 
 	return chArrSum;
