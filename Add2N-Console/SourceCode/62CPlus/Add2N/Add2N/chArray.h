@@ -15,10 +15,12 @@ private:
 	char *pchar; 
 	int wNumChars;
 public:
+	chArray();
 	chArray(int);
 	~chArray();
 	void invertChars();
 	void showChars();
+	void setNumChars(int);
 	int wGetNumChars();
 	char* pGetPChar();
 }

@@ -4,6 +4,17 @@
 using namespace std;
 
 /**************************************************
+Method Name:	chArray::chArray();
+Description:    construction of class.
+
+Parameter: None
+**************************************************/
+chArray::chArray()
+{
+	this->wNumChars = 0;
+	this->pchar = new char[wNumChars];
+}
+/**************************************************
 Method Name:	chArray::chArray(int wNumChars);
 Description:    construction of class.
 
@@ -59,6 +70,17 @@ void chArray::showChars()
 	{
 		cout << this->pchar[i];
 	}
+}
+/************************************************
+Method Name: chArray::SetNumChars(int wNumChars);
+Description: set the Number of this array
+
+return value: void
+Parameter: wNumChars, the number of the array
+************************************************/
+void chArray::setNumChars(int wNumChars)
+{
+	this->wNumChars = wNumChars;
 }
 /************************************************
 Method Name: chArray::wgetNumChars();
