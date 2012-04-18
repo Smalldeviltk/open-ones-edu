@@ -21,6 +21,7 @@ public:
 	void invertChars();
 	void showChars();
 	void setNumChars(int);
+	void setPChar(char*);
 	int wGetNumChars();
 	char* pGetPChar();
 }
