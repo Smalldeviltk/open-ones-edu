@@ -14,6 +14,17 @@ chArray::chArray(int wNumChars)
 	this->wNumChars = wNumChars;
 	this->pchar = new char[wNumChars];
 }
+/************************************************
+Method Name: ~chArray::chArray;
+Description: destruction of this class
+
+return value: None
+Parameter: None
+************************************************/
+chArray::~chArray()
+{
+	delete pchar;
+}
 /*************************************************
 Method Name:	chArray::invertChars()
 Description:	to invert this array
@@ -56,7 +67,18 @@ Description: get the Number of this array
 return value: int
 Parameter: None
 ************************************************/
-int chArray::wgetNumChars()
+int chArray::wGetNumChars()
 {
 	return this -> wNumChars;
+}
+/************************************************
+Method Name: chArray::pGetPChar();
+Description: get pointer of this chars
+
+return value: char*
+Parameter: None
+************************************************/
+char * chArray::pGetPChar()
+{
+	return this->pchar;
 }
