@@ -1,0 +1,5 @@
+c:\users\dieu lien\documents\visual studio 2010\Projects\Add-2n\Add-2n\bin\Debug\Add-2n.exe
+c:\users\dieu lien\documents\visual studio 2010\Projects\Add-2n\Add-2n\bin\Debug\Add-2n.pdb
+c:\users\dieu lien\documents\visual studio 2010\Projects\Add-2n\Add-2n\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dieu lien\documents\visual studio 2010\Projects\Add-2n\Add-2n\obj\x86\Debug\Add-2n.exe
+c:\users\dieu lien\documents\visual studio 2010\Projects\Add-2n\Add-2n\obj\x86\Debug\Add-2n.pdb
