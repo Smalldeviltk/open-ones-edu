@@ -16,8 +16,10 @@ private:
 	int wNumChars;
 public:
 	chArray(int);
+	~chArray();
 	void invertChars();
 	void showChars();
-	int wgetNumChars();
+	int wGetNumChars();
+	char* pGetPChar();
 }
 #endif
