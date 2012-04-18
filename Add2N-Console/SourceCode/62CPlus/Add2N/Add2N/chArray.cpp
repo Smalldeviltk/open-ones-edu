@@ -34,7 +34,6 @@ Parameter: None
 ************************************************/
 chArray::~chArray()
 {
-	delete pchar;
 }
 /*************************************************
 Method Name:	chArray::invertChars()
@@ -45,17 +44,16 @@ Parameter:		None.
 *************************************************/
 void chArray::invertChars()
 {
-	char *pcharTemp = new char[this->wNumChars];
+	char *pcharTemp = new char;
 
 	for (int i = this->wNumChars - 1; i >= 0; i--)
 	{
-		pcharTemp[this->wNumChars - i] = this->pchar[i];
+		pcharTemp[this->wNumChars - i - 1] = pchar[i];
 	}
 	for (int i = 0; i < this->wNumChars; i++)
 	{
-		this->pchar[i] = pcharTemp[i];
+		pchar[i] = pcharTemp[i];
 	}
-	delete pcharTemp;
 }
 /************************************************
 Method Name:  chArray::showChars()
@@ -124,5 +122,6 @@ Parameter: the value of char
 ************************************************/
 void chArray::addChar(char chNew)
 {
-	this->pchar += chNew;
+	this->wNumChars++;
+	this->pchar[wNumChars - 1] = chNew;
 }
