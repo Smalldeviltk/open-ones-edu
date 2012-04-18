@@ -20,6 +20,7 @@ public:
 	~chArray();
 	void invertChars();
 	void showChars();
+	void addChar(char);
 	void setNumChars(int);
 	void setPChar(char*);
 	int wGetNumChars();
