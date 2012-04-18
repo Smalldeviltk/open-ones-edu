@@ -18,18 +18,24 @@
     <ClInclude Include="chArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="logic.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="logic.cpp">
+    <ClCompile Include="model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logical.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

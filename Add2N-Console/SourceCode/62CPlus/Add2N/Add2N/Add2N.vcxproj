@@ -75,12 +75,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="chArray.h" />
+    <ClInclude Include="logical.h" />
+    <ClInclude Include="model.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chArray.cpp" />
-    <ClCompile Include="logic.cpp" />
-    <ClCompile Include="logic.h" />
+    <ClCompile Include="logical.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="model.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
