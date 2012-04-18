@@ -12,7 +12,7 @@ Parameter: None
 chArray::chArray()
 {
 	this->wNumChars = 0;
-	this->pchar = new char[wNumChars];
+	this->pchar = new char;
 }
 /**************************************************
 Method Name:	chArray::chArray(int wNumChars);
@@ -92,6 +92,17 @@ Parameter: None
 int chArray::wGetNumChars()
 {
 	return this -> wNumChars;
+}
+/************************************************
+Method Name: chArray::pGetPChar(char *pchar);
+Description: set pointer of this chars
+
+return value: void
+Parameter: the value of pchar
+************************************************/
+void chArray::setPChar(char *pchar)
+{
+	this->pchar = pchar;
 }
 /************************************************
 Method Name: chArray::pGetPChar();
