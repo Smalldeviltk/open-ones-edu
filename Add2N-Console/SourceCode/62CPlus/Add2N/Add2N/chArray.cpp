@@ -23,7 +23,7 @@ Parameter: int wNumChars, the Number of this array.
 chArray::chArray(int wNumChars)
 {
 	this->wNumChars = wNumChars;
-	this->pchar = new char[wNumChars];
+	this->pchar = new char;
 }
 /************************************************
 Method Name: ~chArray::chArray;
@@ -44,15 +44,12 @@ Parameter:		None.
 *************************************************/
 void chArray::invertChars()
 {
-	char *pcharTemp = new char;
-
-	for (int i = this->wNumChars - 1; i >= 0; i--)
+	char chTemp;
+	for (int i = 0 ; i <= (this->wNumChars - 1)/2; i++)
 	{
-		pcharTemp[this->wNumChars - i - 1] = pchar[i];
-	}
-	for (int i = 0; i < this->wNumChars; i++)
-	{
-		pchar[i] = pcharTemp[i];
+		chTemp = this->pchar[i];
+		this->pchar[i] = this->pchar[wNumChars - 1 - i];
+		this->pchar[wNumChars - 1 - i] = chTemp;
 	}
 }
 /************************************************
@@ -124,5 +121,4 @@ void chArray::addChar(char chNew)
 {
 	this->wNumChars++;
 	this->pchar[wNumChars - 1] = chNew;
-	this->pchar[wNumChars] = '/0';
 }
