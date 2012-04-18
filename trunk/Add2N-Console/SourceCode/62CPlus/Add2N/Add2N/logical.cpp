@@ -32,13 +32,12 @@ Description:    Add 2 Number
 
 Parameter:		chArray chArrNumA,chArray chArrNumB .. 
 				two number of tha equation
-Variable		chArrSum: result of this equation
 **************************************************/
-chArray logical::pAdd2N(chArray chArrNumA, chArray chArrNumB)
+void logical::pAdd2N(chArray chArrNumA, chArray chArrNumB, chArray &chArrSum)
 {
-	int wMaximum;
+	int wMaximum, wTemp;
 	wMaximum = wMax(chArrNumA.wGetNumChars(), chArrNumB.wGetNumChars());
-	chArray chArrSum(wMaximum);
+	
 
 	char chTemp = '0';
 	char *pcharA, *pcharB, *pcharSum;
@@ -52,23 +51,27 @@ chArray logical::pAdd2N(chArray chArrNumA, chArray chArrNumB)
 
 	for (int i = 0; i < wMaximum; i++)
 	{
-		chTemp += pcharA[i] + pcharB[i] - 48*2;
+		wTemp = 1;
+		if (chTemp == '1') 
+		{
+			wTemp = 0;
+		}
+		chTemp = pcharA[i] + pcharB[i] - 48;
 		if (chTemp > '9')
 		{
-			pcharSum[i] = '0';
+			chArrSum.addChar(pcharB[i] - ('9' - pcharA[i] + wTemp));
 			chTemp = '1';
 		}
 		else 
 		{
-			pcharSum[i] = chTemp;
+			chArrSum.addChar(chTemp);
 			chTemp = '0';
 		}
 	}
-	if (chTemp != '0') pcharSum[wMaximum] = chTemp;
+	if (chTemp != '0') chArrSum.addChar(chTemp);
 
 	chArrSum.invertChars();
 	chArrNumA.invertChars();
 	chArrNumB.invertChars();
 
-	return chArrSum;
 }

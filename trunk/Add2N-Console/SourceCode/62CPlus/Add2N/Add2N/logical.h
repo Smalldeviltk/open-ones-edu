@@ -16,7 +16,7 @@ private:
 	int wMax(int, int);
 public:
 	logical();
-	chArray pAdd2N(chArray, chArray);
+	void pAdd2N(chArray, chArray, chArray &);
 };
 
 #endif
