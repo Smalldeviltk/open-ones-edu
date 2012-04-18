@@ -13,9 +13,12 @@
  *
  *					16.04.12	-	Vu Vuong Hiep		Create Number class
  *														Description: create structure and constructors
- *
- *					16.04.12	-	Doan Quang Khoi		Create Number class
+ *					
+ *					17.04.12	-	Doan Quang Khoi		Create Number class
  *														Description: Operator+ & Operator<<
+ *					
+ *					18.04.12	-	Huynh Van Than		Create Number class
+ *														Description: create AddHead & AddTail function
  * --
 ***********************************************************************************************************/
 
@@ -61,6 +64,28 @@ class Number { //Link list contain sequence of subNumber items
 public:
 	subNumber *pHead, *pTail; //Head & Tail of the link list
 	int fail;
+	
+	void AddTail(subNumber *sNum) { //Add to tail
+		if (pHead == NULL) {
+			pHead = pTail = sNum;
+		}
+		else {
+			sNum->pPrev = pTail;
+			pTail->pNext = sNum;
+			pTail = sNum;
+		}
+	}
+
+	void AddHead(subNumber *sNum) { //Add to head
+		if (pHead == NULL) {
+			pHead = pTail = sNum;
+		}
+		else {
+			sNum->pNext = pHead;
+			pHead->pPrev = sNum;
+			pHead = sNum;
+		}
+	}
 
 	Number(const char *Num) { //Constructor with a char array
 		fail = 0;
@@ -76,6 +101,7 @@ public:
 			printf("%s khong hop le\r\n", oNum);
 			fail = 1;
 		}
+
 	}
 
 	Number() { //Default constructor
@@ -152,5 +178,3 @@ public:
 		return stream;
 	}
 };
-
-
