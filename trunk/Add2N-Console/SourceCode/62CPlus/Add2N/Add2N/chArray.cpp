@@ -115,3 +115,14 @@ char * chArray::pGetPChar()
 {
 	return this->pchar;
 }
+/************************************************
+Method Name: chArray::addChar(char chNew);
+Description: add new char
+
+return value: void
+Parameter: the value of char
+************************************************/
+void chArray::addChar(char chNew)
+{
+	this->pchar += chNew;
+}
