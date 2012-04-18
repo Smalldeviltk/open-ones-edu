@@ -15,7 +15,7 @@ private:
 	char *pchar; 
 	int wNumChars;
 public:
-	chArry(int);
+	chArray(int);
 	void invertChars();
 	void showChars();
 	int wgetNumChars();
