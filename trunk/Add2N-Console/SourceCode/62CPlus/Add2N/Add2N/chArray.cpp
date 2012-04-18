@@ -124,4 +124,5 @@ void chArray::addChar(char chNew)
 {
 	this->wNumChars++;
 	this->pchar[wNumChars - 1] = chNew;
+	this->pchar[wNumChars] = '/0';
 }

@@ -1,11 +1,11 @@
 #include "chArray.h"
-#include "logic.h"
+#include "logical.h"
 
 /************************************************
 Method Name:	logic::logic();
 Description:    construction
 *************************************************/
-logic::logic()
+logical::logical()
 {
 }
 /**************************************************
@@ -15,7 +15,7 @@ Description:    compare two number
 Parameter:		chArray chArrNumA,chArray chArrNumB .. 
 				two number of tha equation
 **************************************************/
-int logic::wMax(int wTempA, int wTempB)
+int logical::wMax(int wTempA, int wTempB)
 {
 	if (wTempA > wTempB) 
 	{
@@ -34,7 +34,7 @@ Parameter:		chArray chArrNumA,chArray chArrNumB ..
 				two number of tha equation
 Variable		chArrSum: result of this equation
 **************************************************/
-chArray logic::pAdd2N(chArray chArrNumA, chArray chArrNumB)
+chArray logical::pAdd2N(chArray chArrNumA, chArray chArrNumB)
 {
 	int wMaximum;
 	wMaximum = wMax(chArrNumA.wGetNumChars(), chArrNumB.wGetNumChars());
@@ -65,7 +65,10 @@ chArray logic::pAdd2N(chArray chArrNumA, chArray chArrNumB)
 		}
 	}
 	if (chTemp != '0') pcharSum[wMaximum] = chTemp;
+
 	chArrSum.invertChars();
+	chArrNumA.invertChars();
+	chArrNumB.invertChars();
 
 	return chArrSum;
 }

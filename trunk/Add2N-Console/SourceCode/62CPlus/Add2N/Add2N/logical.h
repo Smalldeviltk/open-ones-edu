@@ -1,6 +1,6 @@
 /**********************************************************
 Author:           Loc Van Tien
-Module Name:      logic.cpp
+Module Name:      logical.cpp
 Description:      some logic functions to work with data
 
 *********************************************************/
@@ -9,12 +9,13 @@ Description:      some logic functions to work with data
 #define LOGIC_H
 
 #include "chArray.h"
-class logic
+
+class logical
 {
 private:
 	int wMax(int, int);
 public:
-	logic();
+	logical();
 	chArray pAdd2N(chArray, chArray);
 };
 
