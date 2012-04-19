@@ -29,44 +29,54 @@ bool check(char *str)
 
 char* Cong(string strA, string strB)
 {
+	//bien luu gia tri chieu dai cua 2 so
 	int lengthA = strA.length();
 	int lengthB = strB.length();
+
+	//bien luu so gio
 	int carry = 0;
+
+
 	int a, b, result, size;
 
+	//xac dinh kich thuot cua mang ket qua
 	if(lengthA > lengthB)
 		size = lengthA + 1;
 	else
 		size = lengthB + 1;
 
+	//mang char luu ket qua luu ket qua
 	char *str = new char[size];
 	lengthA--;
 	lengthB--;
 	str[size] = NULL;
-	int k = size - 1;
 
+	//bien k luu vi tri hien tai cua so dang cong
+	int k = size - 1;
 	while(lengthA >= 0 || lengthB >= 0)
 	{
+		//lay so thu k trong chuoi a de cong
 		if(lengthA >= 0)
-		{
-			a = strA[lengthA] - '0';
-			lengthA--;
-		}
+			a = strA[lengthA--] - '0';
 		else
 			a = 0;
 
+		//lay so thu k trong chuoi b de cong
 		if(lengthB >= 0)
-		{
-			b = strB[lengthB] - '0';
-			lengthB--;
-		}
+		b = strB[lengthB--] - '0';
 		else 
 			b = 0;
-
+		//gia tri cua so hang thu k
 		result = a + b + carry;
+
+		//gia tri gio
 		carry = result / 10;
+
+		//gan gia tri vao ket qua
 		str[k--] = '0' + result % 10;
 	}
+
+	//neu carry = 0 thi chuoi thut ve mot ky tu 
 	if(carry == 0)
 		for (int i = 0; i < size; i++)
 			str[i] = str[i + 1];
