@@ -74,6 +74,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Add2N.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Add2N.cpp" />
+    <ClCompile Include="CTKS_53.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
