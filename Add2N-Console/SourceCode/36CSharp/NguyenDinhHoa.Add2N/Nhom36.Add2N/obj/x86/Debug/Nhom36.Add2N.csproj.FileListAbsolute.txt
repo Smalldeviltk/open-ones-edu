@@ -1,0 +1,10 @@
+C:\Users\Nguyen Dinh Hoa\Documents\Visual Studio 2010\Projects\Nhom36.Add2N\Nhom36.Add2N\bin\Debug\Nhom36.Add2N.exe
+C:\Users\Nguyen Dinh Hoa\Documents\Visual Studio 2010\Projects\Nhom36.Add2N\Nhom36.Add2N\bin\Debug\Nhom36.Add2N.pdb
+C:\Users\Nguyen Dinh Hoa\Documents\Visual Studio 2010\Projects\Nhom36.Add2N\Nhom36.Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nguyen Dinh Hoa\Documents\Visual Studio 2010\Projects\Nhom36.Add2N\Nhom36.Add2N\obj\x86\Debug\Nhom36.Add2N.exe
+C:\Users\Nguyen Dinh Hoa\Documents\Visual Studio 2010\Projects\Nhom36.Add2N\Nhom36.Add2N\obj\x86\Debug\Nhom36.Add2N.pdb
+C:\Users\Nguyen Dinh Hoa\Desktop\Nhom36.Add2N\Nhom36.Add2N\obj\x86\Debug\Nhom36.Add2N.exe
+C:\Users\Nguyen Dinh Hoa\Desktop\Nhom36.Add2N\Nhom36.Add2N\obj\x86\Debug\Nhom36.Add2N.pdb
+C:\Users\Nguyen Dinh Hoa\Desktop\Nhom36.Add2N\Nhom36.Add2N\bin\Debug\Nhom36.Add2N.exe
+C:\Users\Nguyen Dinh Hoa\Desktop\Nhom36.Add2N\Nhom36.Add2N\bin\Debug\Nhom36.Add2N.pdb
+C:\Users\Nguyen Dinh Hoa\Desktop\Nhom36.Add2N\Nhom36.Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
