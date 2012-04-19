@@ -18,12 +18,18 @@
     <ClInclude Include="Add2N.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Add2N.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CTKS_53.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
