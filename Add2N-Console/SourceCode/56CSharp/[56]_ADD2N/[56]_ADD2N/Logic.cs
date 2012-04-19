@@ -7,10 +7,14 @@ namespace _56__ADD2N
 {
     class Logic
     {
-        // Hàm kiểm tra 1 ký tự có phải là số không
+        // Hàm kiểm tra 1 chuỗi có phải là số không
         private static bool SoNguyen(string s)
         {
-            
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] - '0' < 0 || s[i] - '0' > 9) return false;
+            }
+            return true;
         }
 
         //Hàm kiểm tra chuỗi có hợp lê, có phải là chuỗi số nguyên hay không
