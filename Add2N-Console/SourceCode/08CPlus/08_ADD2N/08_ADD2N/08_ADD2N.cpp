@@ -100,6 +100,37 @@ void List::addFirst(int newdata)
 	}	
 }
 
+//DANG DINH HOANG
+
+List::~List()  {
+	Node* pTemp = pHead;
+	while (pTemp!=pHead) {
+		pTemp = pTemp->next;
+		delete pHead;
+		pHead = pTemp;
+	}
+}
+
+void List::display() {
+	if(pHead->next==NULL)
+	{
+		cout<<pHead->data;
+	}
+	else
+	{
+		//Node *pTail=new Node();
+		Node *pTemp=new Node();
+		//pTail=pHead->prev;
+		pTemp=pHead->next ;
+		cout<<pHead->data;
+		while(pTemp !=pHead )
+		{
+			cout<<pTemp->data;
+			pTemp=pTemp->next;
+		}
+	}	
+}
+
 //CAO HOANG VU
 
 void List::CongHaiSoLon(List *kq,List *f2,List *f1)
