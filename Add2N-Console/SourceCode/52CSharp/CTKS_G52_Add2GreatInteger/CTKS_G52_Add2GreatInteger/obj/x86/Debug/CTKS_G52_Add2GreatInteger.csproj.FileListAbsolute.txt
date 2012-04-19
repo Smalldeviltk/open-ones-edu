@@ -1,0 +1,10 @@
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\bin\Debug\CTKS_G52_Add2GreatInteger.exe
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\bin\Debug\CTKS_G52_Add2GreatInteger.pdb
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\obj\x86\Debug\CTKS_G52_Add2GreatInteger.exe
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\obj\x86\Debug\CTKS_G52_Add2GreatInteger.pdb
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\[52]_SoureCode\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\obj\x86\Debug\CTKS_G52_Add2GreatInteger.exe
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\[52]_SoureCode\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\obj\x86\Debug\CTKS_G52_Add2GreatInteger.pdb
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\[52]_SoureCode\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\bin\Debug\CTKS_G52_Add2GreatInteger.exe
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\[52]_SoureCode\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\bin\Debug\CTKS_G52_Add2GreatInteger.pdb
+E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\[52]_SoureCode\CTKS_G52_Add2GreatInteger\CTKS_G52_Add2GreatInteger\obj\x86\Debug\ResolveAssemblyReference.cache
