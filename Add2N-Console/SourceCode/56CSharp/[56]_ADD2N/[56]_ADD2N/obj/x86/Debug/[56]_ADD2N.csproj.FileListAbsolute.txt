@@ -1,0 +1,7 @@
+C:\Users\Tuan Anh\Favorites\56CSharp\[56]_ADD2N\[56]_ADD2N\bin\Debug\[56]_ADD2N.exe
+C:\Users\Tuan Anh\Favorites\56CSharp\[56]_ADD2N\[56]_ADD2N\bin\Debug\[56]_ADD2N.pdb
+C:\Users\Tuan Anh\Favorites\56CSharp\[56]_ADD2N\[56]_ADD2N\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuan Anh\Favorites\56CSharp\[56]_ADD2N\[56]_ADD2N\obj\x86\Debug\[56]_ADD2N.exe
+C:\Users\Tuan Anh\Favorites\56CSharp\[56]_ADD2N\[56]_ADD2N\obj\x86\Debug\[56]_ADD2N.pdb
+E:\@@@\[56]_ADD2N\[56]_ADD2N\obj\x86\Debug\[56]_ADD2N.exe
+E:\@@@\[56]_ADD2N\[56]_ADD2N\obj\x86\Debug\[56]_ADD2N.pdb
