@@ -1,0 +1,10 @@
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\Cong 2 so nguyen duong lon\Cong 2 so nguyen duong lon\bin\Debug\Cong 2 so nguyen duong lon.exe
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\Cong 2 so nguyen duong lon\Cong 2 so nguyen duong lon\bin\Debug\Cong 2 so nguyen duong lon.pdb
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\Cong 2 so nguyen duong lon\Cong 2 so nguyen duong lon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\Cong 2 so nguyen duong lon\Cong 2 so nguyen duong lon\obj\x86\Debug\Cong 2 so nguyen duong lon.exe
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\Cong 2 so nguyen duong lon\Cong 2 so nguyen duong lon\obj\x86\Debug\Cong 2 so nguyen duong lon.pdb
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\MaiTrongKhang_Add2N\Cong 2 so nguyen duong lon\obj\x86\Debug\Cong 2 so nguyen duong lon.pdb
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\MaiTrongKhang_Add2N\Cong 2 so nguyen duong lon\bin\Debug\Cong 2 so nguyen duong lon.exe
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\MaiTrongKhang_Add2N\Cong 2 so nguyen duong lon\bin\Debug\Cong 2 so nguyen duong lon.pdb
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\MaiTrongKhang_Add2N\Cong 2 so nguyen duong lon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Oblivion\Documents\Visual Studio 2010\Projects\MaiTrongKhang_Add2N\Cong 2 so nguyen duong lon\obj\x86\Debug\Cong 2 so nguyen duong lon.exe
