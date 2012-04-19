@@ -51,7 +51,22 @@ namespace _56__ADD2N
         //Hàm tổng 2 số nguyên từ người nhập
         public static string Add2N(string s1, string s2)
         {
-           
+           string strKetQua = "";
+            int i = 1;
+            int chrS1, chrS2, chrKetQua, R = 0;
+            while (i <= s1.Length || i <= s2.Length)
+            {
+                chrS1 = chrS2 = 0;
+                if (i <= s1.Length) chrS1 = s1[s1.Length - i] - '0';
+                if (i <= s2.Length) chrS2 = s2[s2.Length - i] - '0';
+                chrKetQua = (chrS1 + chrS2 + R) % 10;
+                R = (chrS1 + chrS2 + R) / 10;
+                strKetQua = chrKetQua.ToString() + strKetQua;
+                i++;
+            }
+            if (R > 0) strKetQua = R.ToString() + strKetQua;
+            while (strKetQua[0] == '0' & strKetQua.Length > 1) strKetQua = strKetQua.Remove(0, 1);
+            return strKetQua;
         }
 
 
