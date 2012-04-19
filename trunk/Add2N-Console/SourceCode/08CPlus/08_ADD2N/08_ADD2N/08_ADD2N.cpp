@@ -196,3 +196,56 @@ void List::CongHaiSoLon(List *kq,List *f2,List *f1)
 					kq->addFirst(1);
 			}
 }
+
+// NGUYEN VAN THU
+
+int main()
+{
+	
+	cout<<("chuong trinh tinh tong 2 so rat lon \n");
+	List *list1=new List();
+	List *list2=new List();
+	List *list3=new List();
+	//char chuoi;
+	int j;
+	char *p1,*p2,*q1,*q2;
+	p1= new char;
+	p2=new char;
+	q1=new char;
+	q2=new char;
+	puts("nhap so thu nhat vao");
+	gets(p1);
+	puts("nhap so thu 2 vao ");
+	gets(p2);
+	q1=p1;
+	q2=p2;
+
+	while(*p1)
+	{
+		q1=p1;
+		list1->addLast((int(*q1)-48));
+		if(((int(*q1)-48)<0)||((int(*q1)-48)>9)) 
+		{
+			cout<<("so da nhap khong hop le, thoat chuong trinh");
+			return 0 ;
+		}
+		*p1++;
+	}
+	while(*p2)
+	{
+		q2=p2;
+		list2->addLast((int(*q2)-48));
+		if((int(*q2)-48)<0||(int(*q2)-48)>9) 
+		{
+			cout<<("so da nhap khong hop le, thoat chuong trinh");
+			return 0 ;
+		}
+		*p2++;
+	}
+	list3->CongHaiSoLon(list3,list2,list1);
+	cout<<"ket qua"<<endl;
+	list3->display();
+	cout<<endl;
+	cout<<("cuoi chuong trinh");
+	getch();
+}
