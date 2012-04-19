@@ -1,0 +1,33 @@
+﻿Build started 4/18/2012 9:55:51 AM.
+     1>Project "H:\so_chuoi\so_chuoi\so_chuoi.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "H:\so_chuoi\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\so_chuoi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>h:\so_chuoi\so_chuoi\main.cpp(11): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>h:\so_chuoi\so_chuoi\main.cpp(13): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>h:\so_chuoi\so_chuoi\main.cpp(8): warning C4101: 'input1' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\so_chuoi.exe.embed.manifest.res" Debug\so_chuoi_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\so_chuoi\Debug\so_chuoi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\so_chuoi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\so_chuoi\Debug\so_chuoi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\so_chuoi\Debug\so_chuoi.lib" /MACHINE:X86 Debug\so_chuoi.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\so_chuoi.exe.embed.manifest" /manifest Debug\so_chuoi.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         so_chuoi.vcxproj -> H:\so_chuoi\Debug\so_chuoi.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\so_chuoi.unsuccessfulbuild".
+         Touching "Debug\so_chuoi.lastbuildstate".
+     1>Done Building Project "H:\so_chuoi\so_chuoi\so_chuoi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.51
