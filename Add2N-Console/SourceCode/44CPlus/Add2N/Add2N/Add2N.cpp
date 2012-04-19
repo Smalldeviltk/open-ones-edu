@@ -78,34 +78,40 @@ char* Cong(string strA, string strB)
 
 int main()
 {
+	//mang char luu tru chuoi nhap vao
 	char str[max];
+
+	//nhap chuoi
 	cout<<"Add2N ";
 	cin.getline(str, max);
 
+	//kiem tra chuoi co hop le khong
+	//neu hop le   --> tien hanh cong
+	//khong hop le --> ket thuc chuong trinh
 	if(check(str))
 	{
+		//2 bien string luu gia tri 2 so
 		string a,b;
 		int i = 0;
+
+		//tien hanh luu 2 so can cong vao 2 bien string
+		//gan so thu 1 cho bien a
 		while(str[i] != ' ')
-		{
-			a += str[i];
-			i++;
-		}
+			a += str[i++];
 
 		i++;
 
+		//gan so thu 2 cho bien b
 		while(str[i] != NULL)
-		{
-			b += str[i];
-			i++;
-		}
+			b += str[i++];
+
+		//xuat ra ket qua
 		cout<<a<<" + "<<b<<" = "<<Cong(a,b)<<endl;
 	}
 	else
-	{
 		cout<<str<<" khong hop le"<<endl;
 
-	}
 	getch();
+	return 0;
 }
 
