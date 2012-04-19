@@ -1,0 +1,5 @@
+c:\users\smalldevil\documents\visual studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N.exe
+c:\users\smalldevil\documents\visual studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N.pdb
+c:\users\smalldevil\documents\visual studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\smalldevil\documents\visual studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+c:\users\smalldevil\documents\visual studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
