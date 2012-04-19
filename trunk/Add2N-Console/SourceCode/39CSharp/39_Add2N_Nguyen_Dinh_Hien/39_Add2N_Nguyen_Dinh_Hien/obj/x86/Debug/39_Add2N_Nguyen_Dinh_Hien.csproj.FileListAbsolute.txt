@@ -1,0 +1,5 @@
+D:\C#\39_Add2N_Nguyen_Dinh_Hien\39_Add2N_Nguyen_Dinh_Hien\bin\Debug\39_Add2N_Nguyen_Dinh_Hien.exe
+D:\C#\39_Add2N_Nguyen_Dinh_Hien\39_Add2N_Nguyen_Dinh_Hien\bin\Debug\39_Add2N_Nguyen_Dinh_Hien.pdb
+D:\C#\39_Add2N_Nguyen_Dinh_Hien\39_Add2N_Nguyen_Dinh_Hien\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\39_Add2N_Nguyen_Dinh_Hien\39_Add2N_Nguyen_Dinh_Hien\obj\x86\Debug\39_Add2N_Nguyen_Dinh_Hien.exe
+D:\C#\39_Add2N_Nguyen_Dinh_Hien\39_Add2N_Nguyen_Dinh_Hien\obj\x86\Debug\39_Add2N_Nguyen_Dinh_Hien.pdb
