@@ -1,0 +1,7 @@
+D:\programming\c#\Projects\c#\ConsoleProject\Add2N\Add2N\Add2N\bin\Debug\Add2N.exe
+D:\programming\c#\Projects\c#\ConsoleProject\Add2N\Add2N\Add2N\bin\Debug\Add2N.pdb
+D:\programming\c#\Projects\c#\ConsoleProject\Add2N\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\programming\c#\Projects\c#\ConsoleProject\Add2N\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+D:\programming\c#\Projects\c#\ConsoleProject\Add2N\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
+C:\Users\admin\Desktop\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+C:\Users\admin\Desktop\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
