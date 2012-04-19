@@ -1,5 +1,0 @@
-E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_GreatInteger\CTKS_GreatInteger\bin\Debug\CTKS_GreatInteger.exe
-E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_GreatInteger\CTKS_GreatInteger\bin\Debug\CTKS_GreatInteger.pdb
-E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_GreatInteger\CTKS_GreatInteger\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_GreatInteger\CTKS_GreatInteger\obj\x86\Debug\CTKS_GreatInteger.exe
-E:\UIT\Nhap Mon Cong Tac Ky Su\Seminar\project\CTKS_GreatInteger\CTKS_GreatInteger\obj\x86\Debug\CTKS_GreatInteger.pdb
