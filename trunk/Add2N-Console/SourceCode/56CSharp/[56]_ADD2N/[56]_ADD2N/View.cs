@@ -35,19 +35,22 @@ namespace _56__ADD2N
         // Thông báo khi có lỗi
         public static void BaoLoi(string ChuoiSai)
         {
-           
+            Console.Write("\n\t\t\t"+ ChuoiSai + " khong hop le\n");
         }
 
         //Thông báo kết quả
         public static void KetQua(string s1, string s2)
         {
-            
+            Console.Write("\t\t\t"+s1 + " + " + s2 + " = " + Logic.Add2N(s1, s2)+"\n");
+            Console.ReadKey();
         }
 
         // Xét xem người dùng có cần tính lại không
         public static bool LapLai()
         {
-           
+ 	    Console.Write("\n\t\t\tBan Co Muon Tinh Tiep Khong ?\n\t\t\t\tY     : de tiep tuc.\n\t\t\t\tEnter : de thoat.\n\t\t\t\t");
+            if (Console.ReadLine() == "y") return true;
+            else return false;           
         }
 
     }
