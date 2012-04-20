@@ -1,0 +1,5 @@
+c:\users\ngockhanh\documents\visual studio 2010\Projects\CongHaiSoNguyenLon\CongHaiSoNguyenLon\bin\Debug\CongHaiSoNguyenLon.exe
+c:\users\ngockhanh\documents\visual studio 2010\Projects\CongHaiSoNguyenLon\CongHaiSoNguyenLon\bin\Debug\CongHaiSoNguyenLon.pdb
+c:\users\ngockhanh\documents\visual studio 2010\Projects\CongHaiSoNguyenLon\CongHaiSoNguyenLon\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ngockhanh\documents\visual studio 2010\Projects\CongHaiSoNguyenLon\CongHaiSoNguyenLon\obj\x86\Debug\CongHaiSoNguyenLon.exe
+c:\users\ngockhanh\documents\visual studio 2010\Projects\CongHaiSoNguyenLon\CongHaiSoNguyenLon\obj\x86\Debug\CongHaiSoNguyenLon.pdb
