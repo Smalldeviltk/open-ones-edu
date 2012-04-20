@@ -8,3 +8,5 @@ C:\Users\bocap\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\A
 C:\Users\bocap\Documents\Visual Studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N.exe
 C:\Users\bocap\Documents\Visual Studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N.pdb
 C:\Users\bocap\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\19CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+C:\Users\DELL\Desktop\19CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
