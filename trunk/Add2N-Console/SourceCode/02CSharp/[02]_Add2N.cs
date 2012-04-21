@@ -3,42 +3,48 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cong2SoDuong
+namespace Add2N_csharp
 {
     class Program
     {
-        private static string a;
-        private static string b;
-        private static bool isNumber = true;
-        public static string Cong(string a, string b)
+        private static string a;//chuoi so thu 1
+        private static string b;//chuoi so thu 2
+        private static string chuoi_nhap;//chuoi nhap vao
+        private static bool isNumber = true;//bien kiem tra hop le
+        private static int tt = 0;//trang thai so hop le
+        public static void check(string a, string b)//kiem tra 2 chuoi hop le hay khong
         {
-            string temp = null;
             for (int l = 0; l < a.Length; l++)
             {
                 if (a[l] < 48 || a[l] > 57)
                 {
                     isNumber = false;
+                    tt = 1;
                 }
-                
-
             }
             for (int m = 0; m < b.Length; m++)
             {
                 if (b[m] < 48 || b[m] > 57)
                 {
                     isNumber = false;
+                    if (tt == 1) tt = 3;
+                    else tt = 2;
                 }
-
-
             }
+
+        }
+        public static string Cong(string a, string b)//cong 2 chuoi 
+        {
+            string temp = null;
+            
             if (!isNumber)
             {
-                
+
                 return null;
             }
             else
             {
-                
+
                 int biennho = 0;
                 int i = 0;
                 if (a.Length >= b.Length)
@@ -85,29 +91,71 @@ namespace Cong2SoDuong
                     i--;
 
                 }
+                if (biennho != 0)
+                {
+                    int t = 1;
+                    temp += t.ToString();
+                }
             }
 
             return temp;
         }
+        public static void tachchuoi()
+        {
+            try
+            {
+                string[] tmp;
+                tmp = chuoi_nhap.Split(new char[] { ' ' });
+                a = tmp[0];
+                b = tmp[1];
+            }
+            catch
+            {
+                Console.WriteLine("cu phap khong hop le");
+                a = "";
+                b = "";
+            }
+        }
+
         static void Main(string[] args)
         {
             char[] kk = new char[100];
-            
-            Console.WriteLine("Nhập số thứ nhất");
-            a = Console.ReadLine().Trim();
-            Console.WriteLine("Nhập số thứ hai");
-            b = Console.ReadLine().Trim();
-            if (Cong(a, b) != null)
+
+            Console.WriteLine("Add2N <so thu nhat> <so thu hai>.");
+            Console.Write("Add2N ");
+            chuoi_nhap = Console.ReadLine().Trim();
+            tachchuoi();
+            check(a, b);
+            if (a != "" && b != "" && isNumber)
             {
+
                 kk = Cong(a, b).ToCharArray();
                 Array.Reverse(kk);
                 string result = new string(kk);
-                Console.WriteLine("Kết quả là: {0}", result);
+                Console.WriteLine("{0} + {1} = {2}", a, b, result);
                 Console.ReadLine();
+
             }
             else
             {
-                Console.WriteLine("Nhập vào chưa đúng! <Không phải số nguyên>");
+                if (tt == 1)
+                {
+                    Console.WriteLine("{0} khong hop le.", a);
+                }
+                else
+                {
+                    if (tt == 2)
+                    {
+
+                        Console.WriteLine("{0} khong hop le.", b);
+                    }
+                    else if (tt == 3)
+                    {
+                        Console.WriteLine("{0} khong hop le.", a);
+                        Console.WriteLine("{0} khong hop le.", b);
+                    }
+                }
+
                 Console.ReadLine();
             }
         }
