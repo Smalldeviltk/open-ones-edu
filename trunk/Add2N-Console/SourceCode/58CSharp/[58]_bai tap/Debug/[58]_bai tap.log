@@ -1,0 +1,53 @@
+﻿Build started 4/19/2012 10:15:24 AM.
+     1>Project "C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\[58]_bai tap.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\[58]_bai tap.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\[58]_bai tap.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "[58]_bai tap.cpp"
+         [58]_bai tap.cpp
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(19): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(21): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(23): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(33): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(250) : see declaration of 'strrev'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(34): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(250) : see declaration of 'strrev'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(38): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\hoanglong\desktop\new folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.cpp(121): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(250) : see declaration of 'strrev'
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\[58]_bai tap.exe.embed.manifest.res" "Debug\[58]_bai tap_manifest.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\[58]_bai tap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.lib" /MACHINE:X86 "Debug\[58]_bai tap.exe.embed.manifest.res"
+         Debug\stdafx.obj
+         "Debug\[58]_bai tap.obj"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\[58]_bai tap.exe.embed.manifest" /manifest "Debug\[58]_bai tap.exe.intermediate.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\[58]_bai tap.exe.embed.manifest.res" "Debug\[58]_bai tap_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\[58]_bai tap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.lib" /MACHINE:X86 "Debug\[58]_bai tap.exe.embed.manifest.res"
+         Debug\stdafx.obj
+         "Debug\[58]_bai tap.obj"
+         [58]_bai tap.vcxproj -> C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\Debug\[58]_bai tap.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\[58]_bai tap.unsuccessfulbuild".
+         Touching "Debug\[58]_bai tap.lastbuildstate".
+     1>Done Building Project "C:\Users\HOANGLONG\Desktop\New folder\[58]_bai tap\[58]_bai tap\[58]_bai tap.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.28
