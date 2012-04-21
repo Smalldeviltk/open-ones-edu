@@ -11,7 +11,7 @@
  *
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  *
- * Mod. History: 15.04.12 - Nhom 32 - Nhap Mon Cong Tac Ky Su
+ * Mod. History: 21.04.12 - Nhom 32 - Nhap Mon Cong Tac Ky Su
  *							File first created
  * --
  ************************************************************************/
@@ -31,7 +31,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * Parameters:	const char&:	Ki tu can kiem tra
  * Return value: none
  *
- * Modifications: 18.04.12 - Nhom 32 - Luu Quang Vu
+ * Modifications: 21.04.12 - Nhom 32 - Luu Quang Vu
  * --
 ***************************************************************************/
 inline bool IsDigit(const char&);
@@ -50,7 +50,7 @@ public:
 	 * Parameters:	none
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Function first created
 	 * --
 	***************************************************************************/
@@ -65,7 +65,7 @@ public:
 	 * Parameters:	const string&:	Chuoi so khoi tao
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Function first created
 	 * --
 	***************************************************************************/
@@ -80,7 +80,7 @@ public:
 	 * Parameters:	const BigInteger&: So nguyen duong goc
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Function first created
 	 * --
 	***************************************************************************/
@@ -97,7 +97,7 @@ public:
 	 * Parameters:	const string&: Chuoi can gan
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Function first created
 	 * --
 	***************************************************************************/
@@ -112,7 +112,7 @@ public:
 	 * Parameters:	const BigInteger&:	So goc
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Funtions first created
 	 * --
 	***************************************************************************/
@@ -129,7 +129,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -144,7 +144,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -159,7 +159,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -174,7 +174,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -189,7 +189,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -204,7 +204,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -221,7 +221,7 @@ public:
 	 * Parameters:	const BigInteger&:	So nguyen duong can cong
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Tran Thi Bich Tuyen & Pham Vinh - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Tran Thi Bich Tuyen & Pham Vinh - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -236,7 +236,7 @@ public:
 	 * Parameters:	const BigInteger&:	Toan hang
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Tran Thi Bich Tuyen & Pham Vinh - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Tran Thi Bich Tuyen & Pham Vinh - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
@@ -254,7 +254,7 @@ public:
 					const BigInteger&: So can xuat
 	 * Return value: ostream&: Dong xuat
 	 *
-	 * Modifications: 18.04.12 - Luu Quang Vu - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Luu Quang Vu - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Funtions first created
 	 * --
 	***************************************************************************/
@@ -270,7 +270,7 @@ private:
 	 * Parameters:	none
 	 * Return value: none
 	 *
-	 * Modifications: 18.04.12 - Luu Quang Vu - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Luu Quang Vu - Nhap Mon Cong Tac Ki Su
 							Funtions first created
 	 * --
 	***************************************************************************/
