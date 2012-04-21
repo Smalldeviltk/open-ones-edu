@@ -1,6 +1,6 @@
 /**************************************************************
-**********			Module Name: Main.cpp			***********
-**********		Describe: Main application			***********
+                 Module Name: Main.cpp
+               Describe: Main application
 ***************************************************************/
 
 #include "Number.h"
