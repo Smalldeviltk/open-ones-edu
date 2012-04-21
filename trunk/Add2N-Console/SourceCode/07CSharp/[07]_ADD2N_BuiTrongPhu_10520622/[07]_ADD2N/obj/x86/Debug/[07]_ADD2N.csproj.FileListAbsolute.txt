@@ -1,0 +1,2 @@
+C:\Users\TRONGPHU\Desktop\[07]_ADD2N_BuiTrongPhu_10520622\[07]_ADD2N\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\TRONGPHU\Desktop\[07]_ADD2N_BuiTrongPhu_10520622\[07]_ADD2N\obj\x86\Debug\ConsoleApplication1.pdb
