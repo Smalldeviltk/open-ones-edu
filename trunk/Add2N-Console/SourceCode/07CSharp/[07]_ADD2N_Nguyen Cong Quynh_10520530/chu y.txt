@@ -1,0 +1,4 @@
+nhóm em là nhóm 7. khi làm bài tap này chúng em chia làm 3 phan chính trong dó:
++ em(Nguyen Cong Quynh_10520530) lam phan: program.cs
++[0952 0022 - Dinh Van Chinh] + [1052 0220 - Le Van Hung] lam phan: add.cs
++[1052 0622 - Bui Trong Phu] + [1052 0302 - Bui Nguyen Manh Cuong] lam phan : check.cs
