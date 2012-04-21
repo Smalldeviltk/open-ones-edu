@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 void xuatso(char *a, int d);
-void output(char *a, char *b, int *kq)
+void output(char *a, char *b, char *kq)
 {
 	if(la>lb)
 	{
@@ -11,10 +11,7 @@ void output(char *a, char *b, int *kq)
 		cout<<" + ";
 		xuatso(&*b,la-lb);
 		cout<<" = ";
-		for(int i=0; i<la;i++)
-		{
-			cout<<kq[i];		
-		}
+		xuatso(&*kq,0)
 	}
 	else if(lb>la)
 	{
@@ -22,10 +19,7 @@ void output(char *a, char *b, int *kq)
 		cout<<" + ";
 		xuatso(&*b,0);
 		cout<<" = ";
-		for(int i=0; i<lb;i++)
-		{
-			cout<<kq[i];		
-		}
+		xuatso(&*kq,0)
 	}
 	else
 	{
@@ -33,10 +27,7 @@ void output(char *a, char *b, int *kq)
 		cout<<" + ";
 		xuatso(&*b,0);
 		cout<<" = ";
-		for(int i=0; i<la;i++)
-		{
-			cout<<kq[i];		
-		}
+		xuatso(&*kq,0)
 	}
 		
 }
