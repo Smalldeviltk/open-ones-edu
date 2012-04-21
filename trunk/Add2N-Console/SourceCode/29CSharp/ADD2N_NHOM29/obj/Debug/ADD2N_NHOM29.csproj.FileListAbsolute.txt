@@ -1,0 +1,5 @@
+C:\Users\android\Documents\Visual Studio 2008\Projects\ADD2N_NHOM29\ADD2N_NHOM29\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\android\Documents\Visual Studio 2008\Projects\ADD2N_NHOM29\ADD2N_NHOM29\bin\Debug\ADD2N_NHOM29.exe
+C:\Users\android\Documents\Visual Studio 2008\Projects\ADD2N_NHOM29\ADD2N_NHOM29\bin\Debug\ADD2N_NHOM29.pdb
+C:\Users\android\Documents\Visual Studio 2008\Projects\ADD2N_NHOM29\ADD2N_NHOM29\obj\Debug\ADD2N_NHOM29.exe
+C:\Users\android\Documents\Visual Studio 2008\Projects\ADD2N_NHOM29\ADD2N_NHOM29\obj\Debug\ADD2N_NHOM29.pdb
