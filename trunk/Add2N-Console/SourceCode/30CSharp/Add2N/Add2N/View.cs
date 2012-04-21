@@ -34,5 +34,14 @@ namespace Add2N
             }
             return true;
         }
+        private List<int> CharArrayToList(char[] number)
+        {
+            List<int> result = new List<int>();
+            for (int i = number.Count() - 1; i >= 0; i--)
+            {
+                result.Add(number[i] - '0');
+            }
+            return result;
+        }
     }
 }
