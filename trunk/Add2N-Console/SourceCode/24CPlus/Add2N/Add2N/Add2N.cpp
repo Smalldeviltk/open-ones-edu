@@ -22,7 +22,7 @@ void main()
 		cAddTwoNumber.GetInput();
 		cAddTwoNumber.GetSumOfNumber();
 		cout<< "Result: " << cAddTwoNumber.chFirstNumber << " + " << cAddTwoNumber.chSecondNumber << " = " << cAddTwoNumber.strResult ;
-		cout<<"\nContinue to calculate?\n 0: Continue \n Ohter: Exit \n";
+		cout<<"\nContinue to calculate?\n 0: Continue \n Other: Exit \n";
 		
 		cin>> wContinueCalculate;
 		
