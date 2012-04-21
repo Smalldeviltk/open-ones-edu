@@ -29,12 +29,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  *				xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  *				xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * Parameters:	const char&:	Ki tu can kiem tra
- * Return value: none
+ * Return value: True if character is digit
  *
- * Modifications: 21.04.12 - Nhom 32 - Luu Quang Vu
+ * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
  * --
 ***************************************************************************/
-inline bool IsDigit(const char&);
+bool IsDigit(const char&);
 
 class BigInteger
 {
@@ -117,7 +117,7 @@ public:
 	 * --
 	***************************************************************************/
 	const BigInteger& operator =(const BigInteger&);
-
+	
 	//Compare operators
 	/*************************************************************************
 	 * ++
@@ -129,7 +129,7 @@ public:
 	 * Parameters:	const BigInteger&:	So can so sanh
 	 * Return value: none
 	 *
-	 * Modifications: 21.04.12 - Pham Minh Triet - Nhom 32 - Nhap Mon Cong Tac Ki Su
+	 * Modifications: 21.04.12 - Nguyen Thanh Tam - Nhom 32 - Nhap Mon Cong Tac Ki Su
 							Functions first created
 	 * --
 	***************************************************************************/
