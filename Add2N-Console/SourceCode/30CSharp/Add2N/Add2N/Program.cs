@@ -10,6 +10,7 @@ namespace Add2N
         static void Main(string[] args)
         {
             // Xong cong 2 List roi ne, test thu nha
+
         }
     }
 }
