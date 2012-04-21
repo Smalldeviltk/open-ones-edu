@@ -112,7 +112,7 @@ void Add2N::GetSumOfNumber()
 	if(wCarry > 0)
 	{
 		itoa(wCarry, &chOperation, 10);
-		strResult.insert(0,1, chOperation);
+		strResult.insert(0, 1, chOperation);
 	}
 }
 
@@ -129,32 +129,26 @@ void Add2N::GetSumOfNumber()
 bool Add2N::TestInputValid( char *s )
 {
 	int wX;
-	bool temp=true;
 
 	for(int i = 0; i < strlen(s); i++)
 	{
 		if(s[i]>='0' && s[i]<='9');
 		else
 		{
-			return temp=false;
+			return false;
 			break;
 		}
 
 	}
-		/*if (s[i] != '0' && s[i] != '1'&& s[i] != '2'&& s[i] != '3'&& s[i] != '4'
-			&& s[i] != '5'&& s[i] != '6'&& s[i] != '7'&& s[i] != '8'&& s[i] != '9')
-		{
-			return false;
-		}*/
 
-		wX=atoi(s);
+	wX=atoi(s);
 
-		if(wX <= 0)
-		{
-			return temp=false;
-		}
-		
-		return temp;
+	if(wX <= 0)
+	{
+		return false;
+	}
+
+	return true;
 }
 
 
