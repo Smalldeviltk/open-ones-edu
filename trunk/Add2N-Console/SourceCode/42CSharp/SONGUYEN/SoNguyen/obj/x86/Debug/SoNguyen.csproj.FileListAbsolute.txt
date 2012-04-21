@@ -1,0 +1,27 @@
+C:\Users\Tuthan\AppData\Local\Temporary Projects\SoNguyen\bin\Debug\SoNguyen.exe
+C:\Users\Tuthan\AppData\Local\Temporary Projects\SoNguyen\bin\Debug\SoNguyen.pdb
+C:\Users\Tuthan\AppData\Local\Temporary Projects\SoNguyen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuthan\AppData\Local\Temporary Projects\SoNguyen\obj\x86\Debug\SoNguyen.exe
+C:\Users\Tuthan\AppData\Local\Temporary Projects\SoNguyen\obj\x86\Debug\SoNguyen.pdb
+D:\My Code\C#\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.exe
+D:\My Code\C#\SoNguyen\SoNguyen\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Code\C#\SoNguyen\SoNguyen\bin\Debug\SoNguyen.exe
+D:\My Code\C#\SoNguyen\SoNguyen\bin\Debug\SoNguyen.pdb
+D:\My Code\C#\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.pdb
+C:\Users\DUCND\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.exe
+C:\Users\DUCND\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.pdb
+C:\Users\DUCND\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DUCND\Desktop\SoNguyen\SoNguyen\bin\Debug\SoNguyen.exe
+C:\Users\DUCND\Desktop\SoNguyen\SoNguyen\bin\Debug\SoNguyen.pdb
+C:\Users\Tuthan\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.exe
+C:\Users\Tuthan\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.pdb
+C:\Users\Tuthan\Desktop\SoNguyen\SoNguyen\bin\Debug\SoNguyen.exe
+C:\Users\Tuthan\Desktop\SoNguyen\SoNguyen\bin\Debug\SoNguyen.pdb
+C:\Users\Tuthan\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pein_nss\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.exe
+C:\Users\Pein_nss\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\SoNguyen.pdb
+C:\Users\Pein_nss\Desktop\SoNguyen\SoNguyen\bin\Debug\SoNguyen.exe
+C:\Users\Pein_nss\Desktop\SoNguyen\SoNguyen\bin\Debug\SoNguyen.pdb
+C:\Users\Pein_nss\Desktop\SoNguyen\SoNguyen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\SONGUYEN\SoNguyen\obj\x86\Debug\SoNguyen.exe
+C:\Users\Admin\Desktop\SONGUYEN\SoNguyen\obj\x86\Debug\SoNguyen.pdb
