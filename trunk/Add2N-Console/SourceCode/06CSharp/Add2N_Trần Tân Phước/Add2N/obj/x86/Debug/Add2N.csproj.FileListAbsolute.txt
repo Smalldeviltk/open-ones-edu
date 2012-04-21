@@ -3,3 +3,8 @@ E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\bin\Debug\Add2N
 E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\Add2N.exe
 E:\Users\Phuoc\Documents\Visual Studio 2010\Projects\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
+C:\Users\Mr.Cuong\Documents\open-ones-edu\Add2N-Console\SourceCode\06CSharp\Add2N_Trần Tân Phước\Add2N\obj\x86\Debug\Add2N.exe
+C:\Users\Mr.Cuong\Documents\open-ones-edu\Add2N-Console\SourceCode\06CSharp\Add2N_Trần Tân Phước\Add2N\obj\x86\Debug\Add2N.pdb
+C:\Users\Mr.Cuong\Documents\open-ones-edu\Add2N-Console\SourceCode\06CSharp\Add2N_Trần Tân Phước\Add2N\bin\Debug\Add2N.exe
+C:\Users\Mr.Cuong\Documents\open-ones-edu\Add2N-Console\SourceCode\06CSharp\Add2N_Trần Tân Phước\Add2N\bin\Debug\Add2N.pdb
+C:\Users\Mr.Cuong\Documents\open-ones-edu\Add2N-Console\SourceCode\06CSharp\Add2N_Trần Tân Phước\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
