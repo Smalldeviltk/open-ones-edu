@@ -1,6 +1,6 @@
 
 /**************************************************************
-*       			Module Name: Number.h                     *
-*       	Describe: Create class StringNumber               *
+	       			Module Name: Number.h
+		   	Describe: Create class StringNumber
 ***************************************************************/
 
