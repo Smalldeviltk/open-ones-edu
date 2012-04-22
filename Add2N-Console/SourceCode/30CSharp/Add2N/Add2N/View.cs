@@ -43,5 +43,43 @@ namespace Add2N
             }
             return result;
         }
+
+        public bool Input(out List<int> listNumber1, out List<int> listNumber2)
+        {
+            listNumber1 = new List<int>();
+            listNumber2 = new List<int>();
+            string strInput = Console.ReadLine();
+            string[] strTemp1 = strInput.Split(' ');
+
+            if (strTemp1[0] == "Add2N") 
+            {
+                if (!IsValid(strTemp1[1]) || (!IsValid(strTemp1[2])))
+                {
+                    if (!IsValid(strTemp1[1]))
+                    {
+                        Console.Write("{0} ", strTemp1[1]);
+                    }
+                    if (!IsValid(strTemp1[2]))
+                    {
+                        Console.Write("{0} ", strTemp1[2]);
+                    }
+                    Console.WriteLine("is not valid", strTemp1[1]);
+
+                    return false; 
+                }
+                else
+                {
+                    listNumber1 = CharArrayToList(strTemp1[1].ToCharArray());
+                    listNumber2 = CharArrayToList(strTemp1[2].ToCharArray());
+
+                    return true;
+                }
+            }
+            else
+            {
+                Console.WriteLine("{0} command does not exist", strTemp1[0]);
+                return false;
+            }
+        }
     }
 }
