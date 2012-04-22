@@ -44,6 +44,7 @@ namespace Add2N
             return result;
         }
 
+
         public bool Input(out List<int> listNumber1, out List<int> listNumber2)
         {
             listNumber1 = new List<int>();
