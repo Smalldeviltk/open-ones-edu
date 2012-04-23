@@ -1,0 +1,5 @@
+D:\bai tap\Add2N\Add2N\obj\Debug\ResolveAssemblyReference.cache
+D:\bai tap\Add2N\Add2N\bin\Debug\Add2N.exe
+D:\bai tap\Add2N\Add2N\bin\Debug\Add2N.pdb
+D:\bai tap\Add2N\Add2N\obj\Debug\Add2N.exe
+D:\bai tap\Add2N\Add2N\obj\Debug\Add2N.pdb
