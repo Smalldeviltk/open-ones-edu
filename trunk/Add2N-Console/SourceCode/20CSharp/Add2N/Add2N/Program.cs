@@ -8,6 +8,7 @@ namespace Add2N
 {
     class Program
     {
+		// Main function
         static void Main(string[] args)
         {
             if (args.Length == 2)
@@ -28,7 +29,7 @@ namespace Add2N
                 }
             }
             else
-                Console.WriteLine("Must be 2 parameters");
+                Console.WriteLine("Chuong trinh phai co 2 doi so");
 
         }
 
