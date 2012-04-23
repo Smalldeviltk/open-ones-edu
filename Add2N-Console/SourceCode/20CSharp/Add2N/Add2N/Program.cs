@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Collections;
 
 namespace Add2N
 {
@@ -10,6 +10,25 @@ namespace Add2N
     {
         static void Main(string[] args)
         {
+            if (args.Length == 2)
+            {
+                string n1 = args[0];
+                string n2 = args[1];
+                if (!checkNumString(n1))
+                    if (!checkNumString(n2))
+                        Console.WriteLine(n1 + ", " + n2 + " khong hop le");
+                    else
+                        Console.WriteLine(n1 + " khong hop le");
+                else if (!checkNumString(n2))
+                    Console.WriteLine(n2 + " khong hop le");
+                else
+                {
+                    string nSum = Add(n1, n2);
+                    Console.WriteLine(n1 + " + " + n2 + " = " + nSum);
+                }
+            }
+            else
+                Console.WriteLine("Must be 2 parameters");
 
         }
 
@@ -32,8 +51,8 @@ namespace Add2N
             while (true)
             {
                 int n1, n2;
-                n1 = myStack1.Count > 0 ? (byte)myStack1.Pop() : 0;
-                n2 = myStack2.Count > 0 ? (byte)myStack2.Pop() : 0;
+                n1 = myStack1.Count > 0 ? (byte) myStack1.Pop() : 0;
+                n2 = myStack2.Count > 0 ? (byte) myStack2.Pop() : 0;
                 int tong = n1 + n2 + mNum;
                 if (tong == 0)
                     break;
