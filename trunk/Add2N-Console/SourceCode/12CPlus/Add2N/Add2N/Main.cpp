@@ -25,7 +25,6 @@ void main()
 		cout<<endl<<snN1<<" + "<<snN2<<" = "<<snResult;	// output result
 	}
 	else
-		cout<<"Error input..!";
-	
+		cout<<"Error input..!";	
 	getch();
 }
