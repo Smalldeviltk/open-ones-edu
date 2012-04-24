@@ -39,7 +39,7 @@ namespace Add2N
             num = null;
             strAlert = null;
             blnCheck = true;
-            num = View.Input(); // Gọi hàm nhập thông tin từ class View.cs
+            num=View.Input(); // Gọi hàm nhập thông tin từ class View.cs
             // Nếu nhập vào 3 chuỗi thì tiếp tục kiểm tra các chuỗi, ngược lại báo Không đúng cú pháp
             if (num.Length == 3)
             {
@@ -49,31 +49,31 @@ namespace Add2N
                 if (num[0].ToLowerInvariant().Equals("add2n") == false)
                 {
                     if (strAlert == null)
-                        strAlert += "Khong dung cu phap, " + num[0] + " khong hop le";
-                    blnCheck = false;
+                        strAlert += "Khong dung cu phap, "+ num[0] + " khong hop le";
+                        blnCheck = false;
                 }
                 // Các bước kiểm tra 2 chuỗi kí tự nhập vào
                 if (CheckDigit(num[1]) == false && CheckDigit(num[2]) == false)
                 {
-                    if (strAlert == null)
-                        strAlert += num[1] + "," + num[2] + " khong hop le";
+                    if(strAlert==null)
+                    strAlert += num[1] + "," + num[2] + " khong hop le";
                     blnCheck = false;
                 }
                 if (CheckDigit(num[1]) == false)
                 {
                     if (strAlert == null)
 
-                        strAlert += num[1] + " khong hop le";
+                    strAlert += num[1] + " khong hop le";
                     blnCheck = false;
                 }
                 if (CheckDigit(num[2]) == false)
                 {
                     if (strAlert == null)
-                        strAlert += num[2] + " khong hop le";
+                    strAlert += num[2] + " khong hop le";
                     blnCheck = false;
                 }
             }
-            else if (num.Length != 3)
+            else if (num.Length!=3)
             {
                 strAlert += "Khong dung cu phap";
                 blnCheck = false;
@@ -107,7 +107,7 @@ namespace Add2N
                     }
                     str2 = strTemp1 + str2; // Cộng vào trước chuỗi 2 các kí tự 0
                 }
-                // Ngược lại nếu chuỗi 2 dài hơn chuỗi 1
+                    // Ngược lại nếu chuỗi 2 dài hơn chuỗi 1
                 else
                 {
                     i = str2.Length - 1;
