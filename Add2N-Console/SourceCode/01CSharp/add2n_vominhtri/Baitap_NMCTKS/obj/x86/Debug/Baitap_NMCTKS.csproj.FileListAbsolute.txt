@@ -1,0 +1,20 @@
+F:\Visual studio 2010\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.exe
+F:\Visual studio 2010\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.pdb
+F:\Visual studio 2010\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Visual studio 2010\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.exe
+F:\Visual studio 2010\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.pdb
+C:\Users\MINHTRI\Desktop\Baitap_NMCTKS(fix)\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.exe
+C:\Users\MINHTRI\Desktop\Baitap_NMCTKS(fix)\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.pdb
+C:\Users\MINHTRI\Desktop\Baitap_NMCTKS(fix)\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.exe
+C:\Users\MINHTRI\Desktop\Baitap_NMCTKS(fix)\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.pdb
+C:\Users\MINHTRI\Desktop\Baitap_NMCTKS(fix)\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OnlyU\Desktop\add2n\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.exe
+C:\Users\OnlyU\Desktop\add2n\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.pdb
+C:\Users\OnlyU\Desktop\add2n\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.exe
+C:\Users\OnlyU\Desktop\add2n\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.pdb
+C:\Users\OnlyU\Desktop\add2n\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\OnlyU\Desktop\NMCTKS\add2n\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.exe
+C:\Users\OnlyU\Desktop\NMCTKS\add2n\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\Baitap_NMCTKS.pdb
+C:\Users\OnlyU\Desktop\NMCTKS\add2n\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.exe
+C:\Users\OnlyU\Desktop\NMCTKS\add2n\Baitap_NMCTKS\Baitap_NMCTKS\bin\Debug\Baitap_NMCTKS.pdb
+C:\Users\OnlyU\Desktop\NMCTKS\add2n\Baitap_NMCTKS\Baitap_NMCTKS\obj\x86\Debug\ResolveAssemblyReference.cache
