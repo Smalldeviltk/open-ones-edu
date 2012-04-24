@@ -41,6 +41,6 @@ namespace Add2N
         public static void Output(string strResult)
         {
             Console.WriteLine(strResult);
-        }
+        } 
     }
 }
