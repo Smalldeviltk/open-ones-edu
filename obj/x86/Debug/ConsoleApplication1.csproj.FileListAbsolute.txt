@@ -1,0 +1,10 @@
+E:\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+E:\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache

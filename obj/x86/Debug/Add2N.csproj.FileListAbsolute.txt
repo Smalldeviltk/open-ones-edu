@@ -1,0 +1,5 @@
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\bin\Debug\Add2N.exe
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\bin\Debug\Add2N.pdb
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\obj\x86\Debug\Add2N.exe
+C:\Users\HP 4520S\Desktop\New folder\ConsoleApplication1\obj\x86\Debug\Add2N.pdb
