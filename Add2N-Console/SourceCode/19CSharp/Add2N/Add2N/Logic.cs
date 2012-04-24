@@ -66,5 +66,54 @@ namespace Add2N
             else
                 return "\tLoi: " + strAlert;
         }
+        public static bool CheckDigit(string str)
+        {
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (!Char.IsDigit(str[i]))
+                    return false;
+            }
+            return true;
+        }
+        public static void CheckSyntax()
+        {
+            num = null;
+            strAlert = null;
+            blnCheck = true;
+            num = View.Input();
+            if (num.Length == 3)
+            {
+                if (num[0].ToLowerInvariant().Equals("add2n") == false)
+                {
+                    if (strAlert == null)
+                        strAlert += "Khong dung cu phap, " + num[0] + " khong hop le";
+                    blnCheck = false;
+                }
+                if (CheckDigit(num[1]) == false && CheckDigit(num[2]) == false)
+                {
+                    if (strAlert == null)
+                        strAlert += num[1] + "," + num[2] + " khong hop le";
+                    blnCheck = false;
+                }
+                if (CheckDigit(num[1]) == false)
+                {
+                    if (strAlert == null)
+
+                        strAlert += num[1] + " khong hop le";
+                    blnCheck = false;
+                }
+                if (CheckDigit(num[2]) == false)
+                {
+                    if (strAlert == null)
+                        strAlert += num[2] + " khong hop le";
+                    blnCheck = false;
+                }
+            }
+            else if (num.Length != 3)
+            {
+                strAlert += "Khong dung cu phap";
+                blnCheck = false;
+            }
+        }
     }
 }
