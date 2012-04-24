@@ -20,14 +20,14 @@ namespace Add2N
             Console.Clear();
                 try
                 {
-                    View.TitleIntro(); // Gọi phần hiển thị giới thiệu chương trình
+                    View.TitleIntro(); // Goi phan hien thi thong tin chuong trinh
                     string strChoice;
-                    // Nhập cho đến khi nhấn khác 1 hoặc yes
+                    // Tiep tuc chuong trinh neu nhan 1 hoac yes
                     do
                     {
-                        // Gọi hàm Calculator từ class Logic để tính toán
-                        // và hàm Output để hiển thị kết quả từ class View
-                        // lúc này hàm Input cũng được gọi thông qua Calculator để nhập thông tin
+                        // Goi ham Calculator cua class Logic de thuc hien tinh toan
+                        // va goi ham Output de hien thi ket qua tu class View
+                        // luc nay ham Input cung duoc goi thong qua ham Calculator de nhap thong tin
                         View.Output(Logic.Calculator());
                         Console.WriteLine("\nBan co muon tiep tuc khong?");
                         Console.Write("\t\tChon (Yes=1/No=0): ");
@@ -35,7 +35,7 @@ namespace Add2N
                     }
                     while (strChoice.Equals("1") || strChoice.ToLowerInvariant().Equals("yes"));
                 }
-                    // Kiểm tra các trường hợn ngoại lệ không mong muốn
+                    // Kiem tra truong hop ngoai le khong mong muon
                 catch (Exception e)
                 {
                     Console.WriteLine("Loi:" + e.Message);
@@ -46,10 +46,9 @@ namespace Add2N
                 }
         }
         ///<summary>
-        /// Dùng cấu trúc try() catch() giúp kiểm soát hầu hết các lỗi ngoại lệ phát sinh
-        /// ngoai y muon, nhưng sẽ làm chậm quá trình Debug chương trình
-        /// có thể không dùng cấu trúc này để Debug chương trình nhanh hơn
-        /// vì các trường hợp lỗi cũng đã được kiểm soát khá chặt chẽ
+        /// Dung cau truc try() catch() giup kiem tra hau het cac loi ngoai le ngoai y muon
+        /// Nhưng viec su dung cau truc nay se lam cham qua trinh Debug chuong trinh
+        /// Co the khong can dung trong ct nay vi cac truong hop loi da duoc kiem soat kha tot
         ///<summary>
     }
 }

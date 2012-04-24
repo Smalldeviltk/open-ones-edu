@@ -4,7 +4,7 @@
 // in part, in any form or by any means, electronic, mechanical or
 // otherwise, is prohibited without the prior written consent of the 
 // copyright owner.
-// Filename: Program.cs
+// Filename: Logic.cs
 //
 #endregion
 using System;
@@ -15,11 +15,11 @@ namespace Add2N
 {
     class Logic
     {
-        static string[] num; // Biến num lưu các chuỗi nhập vào
-        static string strAlert; // Biến lưu chuỗi thông báo lỗi
-        static bool blnCheck; // Biến trả về true nếu nhập đúng cú pháp
-        // Hàm kiểm tra chuỗi kí tự nhập vào phải chuỗi kí tự không
-        // dùng hàm IsDigit() có sắn trong thư viện .Net
+        static string[] num; // Bien num luu cac chuoi nhap vao
+        static string strAlert; // Bien luu chuoi thong bao loi
+        static bool blnCheck; // Bien tra ve false neu nhap sai cu phap
+        // Ham kiem tra chuoi ki tu nhap vao co phai chuoi ki tu khong
+        // dung ham IsDigit() co san trong thu vien .Net
         #region CheckDigit
         public static bool CheckDigit(string str)
         {
@@ -31,32 +31,33 @@ namespace Add2N
             return true;
         }
         #endregion
-        // Hàm kiểm tra cú pháp nhập vào
+        // Ham kiem tra cu phap nhap vao
         #region CheckSyntax
         public static void CheckSyntax()
         {
-            // Thiết lập giá trị ban đầu cho các biến
+            // Thiet lap gia tri ban dau cho cac bien
             num = null;
             strAlert = null;
             blnCheck = true;
-            num=View.Input(); // Gọi hàm nhập thông tin từ class View.cs
-            // Nếu nhập vào 3 chuỗi thì tiếp tục kiểm tra các chuỗi, ngược lại báo Không đúng cú pháp
+            num=View.Input(); // Goi phuong thuc Input tu class View.cs
+            // Neu nhap vao 3 chuoi thi tiep tuc kiem tra chuoi, nguoc lai
+            // thong bao Khong dung cu phap
             if (num.Length == 3)
             {
-                // Kiểm tra chuỗi đầu tiên
-                // Dùng hàm TolowerInvariant() để trả về chuỗi thường dạng add2n
-                // nên không phân biệt chuỗi hoa thường 
+                // Kiem tra chuoi dau tien
+                // Dung ham TolowerInvariant() de tra ve chuoi thuong dang add2n
+                // nen khong phan biet chuoi hoa thuong
                 if (num[0].ToLowerInvariant().Equals("add2n") == false)
                 {
                     if (strAlert == null)
                         strAlert += "Khong dung cu phap, "+ num[0] + " khong hop le";
                         blnCheck = false;
                 }
-                // Các bước kiểm tra 2 chuỗi kí tự nhập vào
+                // Cac buoc kiem tra 2 chuoi ki tu nhap vao
                 if (CheckDigit(num[1]) == false && CheckDigit(num[2]) == false)
                 {
                     if(strAlert==null)
-                    strAlert += num[1] + "," + num[2] + " khong hop le";
+                    strAlert += num[1] + ", " + num[2] + " khong hop le";
                     blnCheck = false;
                 }
                 if (CheckDigit(num[1]) == false)
@@ -80,23 +81,23 @@ namespace Add2N
             }
         }
         #endregion
-        // Hàm thực hiện các phép xử lí trên chuỗi để hiển thị kết quả cộng 2 số
+        // Ham thuc hien cac phep xu li logic tren chuoi de hien ra ket qua cong 2 so nguyen
         #region Calculator
         public static string Calculator()
         {
             CheckSyntax();
-            // Nếu blnCheck=true, đúng cú pháp do đó thực hiện xử lí để cộng chuỗi 
+            // Neu blnCheck=true, dung cu phap do do se thuc hien viec xu li chuoi
             if (blnCheck)
             {
-                int intNho = 0; // Biến nhớ sau mỗi lần cộng
+                int intNho = 0; // Bien nho luc dau = 0
                 int i = 0;
-                // Dùng 2 biến chuỗi lưu các giá trị 2 chuỗi nhập vào và xử lí trên chúng
-                // nhằm giữ giá trị ban đầu của chuỗi khi hiện ra,
-                // không có chữ số 0 phía trước chuỗi ngắn hơn (sẽ xử lí bên dưới)
+                // Dung 2 bien chuoi lua 2 chuoi nhap vao va xu li tren 2 bien nay
+                // nham giu gia tri ban dau cua chuoi
+                // khong co ki tu 0 dung truoc chuoi ngan hon (se xu li ben duoi)
                 string str1 = num[1];
                 string str2 = num[2];
-                string strResult = null; // Biến lưu chuỗi kết quả
-                // Nếu chuỗi 1 dài hơn chuỗi 2
+                string strResult = null; // Bien chuoi luu ket qua
+                // Neu chuoi 1 dai hon chuoi 2
                 if (str1.Length >= str2.Length)
                 {
                     i = str1.Length - 1;
@@ -105,9 +106,9 @@ namespace Add2N
                     {
                         strTemp1 += "0";
                     }
-                    str2 = strTemp1 + str2; // Cộng vào trước chuỗi 2 các kí tự 0
+                    str2 = strTemp1 + str2; // Cong vao truoc chuoi 2 cac ki tu 0
                 }
-                    // Ngược lại nếu chuỗi 2 dài hơn chuỗi 1
+                    // Nguoc lai neu chuoi 2 dai hon chuoi 1
                 else
                 {
                     i = str2.Length - 1;
@@ -116,17 +117,17 @@ namespace Add2N
                     {
                         strTemp2 += "0";
                     }
-                    str1 = strTemp2 + str1; // Cộng vào trước chuỗi 1 các kí tự 0
+                    str1 = strTemp2 + str1; // Cong vao truoc chuoi 1 cac ki tu 0
                 }
-                // Sau đó thực hiện cộng 2 chuỗi
+                // Sau do thuc hien cong 2 chuoi
                 string strTemp3 = null;
                 while (i < str1.Length && i >= 0)
                 {
                     /**
-                     * Thực hiện cộng từng kí tự từ phải qua trái để dễ thực hiện
-                     * sau đó lưu chuỗi theo chiều ngược lại
-                     * Thuật toán: chuyển từng kí tự về mã ASCII và trừ cho mã kí tự 0 để được số nguyên
-                     * sau đó cộng bình thường như đối với số nguyên
+                     * Thuc hien cong tung ki tu, tu phai qua trai
+                     * chuoi ket qua duoc luu theo chieu nguoc lai
+                     * Thuat toan: chuyen tung ki tu ve ma ASCII va tru cho ma ki tu 0 (48) de duoc so nguyen
+                     * sau do cong binh thuong nhu doi voi cac so nguyen
                      */
                     int intTemp1 = 0;
                     intTemp1 = (str1[i]) - 48 + (str2[i]) - 48 + intNho;
@@ -135,13 +136,13 @@ namespace Add2N
                     strTemp3 += intTemp1.ToString();
                     i--;
                 }
-                // Kí tự str[0] được cộng cuối cùng nên nếu >=10 thì thêm số 1 sau chuỗi (đã đảo ngược)
+                // Ki tu str[0] duoc cong cuoi cung nen neu >=10 thi them so 1 sau chuoi (da dao nguoc)
                 if (((str1[0]) - 48 + (str2[0]) - 48 + intNho) >= 10)
                 {
                     strTemp3 += "1";
                 }
-                // Thực hiện đảo chuỗi và lưu vào chuỗi strResult
-                // đảo chuỗi tương tự như cách đã đảo chuỗi ở trên
+                // Thuc hien dao chuoi va luu vao chuo strResult
+                // dao chuoi tuong tu nhu cach tren
                 int intTemp2 = strTemp3.Length - 1;
                 while (intTemp2 < strTemp3.Length && intTemp2 >= 0)
                 {
@@ -150,9 +151,11 @@ namespace Add2N
                     strResult += intTemp3.ToString();
                     intTemp2--;
                 }
-                return "\tKet qustr1:" + num[1] + "+" + num[2] + "=" + strResult;
+                // Tra ve mot chuoi hien thi input va output cua phep cong 
+                return "\tKet qua: " + num[1] + "+" + num[2] + "=" + strResult;
             }
             else
+                // Neu bien thong bao loi strAlert = false
                 return "\tLoi: " + strAlert;
         }
         #endregion
