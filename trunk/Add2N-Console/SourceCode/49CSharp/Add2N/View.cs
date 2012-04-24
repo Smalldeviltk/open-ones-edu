@@ -13,6 +13,7 @@
 /// -----------------------------------------------------
 ///  23/04/2012     Nguyen Khac Trung       Creating
 ///  24/04/2012     Truong Le Van Cuong     Add Delete0String and ReverseString Func
+///  24/04/2012     Pham Van Tu             Add IsHaveError Func
 ///
 //////////////////////////////////////////////////////////////////////////
 
@@ -65,7 +66,48 @@ namespace Add2N
         /// <returns></returns>
         public bool IsHaveError(ref BigInteger _bigInteger1, ref BigInteger _bigInteger2)
         {
-            return true;
+            // Check syntax
+            if (m_str.Length != 2)
+            {
+                Console.WriteLine("Sai cu phap! Cu phap: Add2N <SoThu1> <SoThu2>");
+                Console.WriteLine("*-----------------------------*");
+
+                return true; // Return having error
+            }
+            else
+            {
+                bool error = false; // Check error
+                Regex myRegex = new Regex(@"^\d{1,}$"); // Condition
+
+                // Check error for number 1
+                if (!myRegex.IsMatch(m_str[0]))
+                {
+                    error = true; // Having error
+                    Console.Write(m_str[0] + " ");
+                }
+
+                // Check error for number 1
+                if (!myRegex.IsMatch(m_str[1]))
+                {
+                    error = true; // Having error
+                    Console.Write(m_str[1] + " ");
+                }
+
+                if (error)
+                {
+                    Console.WriteLine("khong hop le!");
+                    Console.WriteLine("*-----------------------------*");
+
+                    return true; // Return having error
+                }
+            }
+
+            Delete0InString(ref m_str[0]);
+            _bigInteger1.BInteger = ReverseString(m_str[0]);
+            Delete0InString(ref m_str[1]);
+            _bigInteger2.BInteger = ReverseString(m_str[1]);
+
+            return false; // None having error
         }
 
         /// <summary>
