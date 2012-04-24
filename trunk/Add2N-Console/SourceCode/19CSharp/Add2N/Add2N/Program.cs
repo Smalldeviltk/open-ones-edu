@@ -1,4 +1,4 @@
-﻿#region Copyright Group 19
+#region Copyright Group 19
 //
 // All rights are reserved. Reproduction or transmission in whole or 
 // in part, in any form or by any means, electronic, mechanical or
@@ -46,7 +46,7 @@ namespace Add2N
                 }
         }
         ///<summary>
-        /// Dung cau truc try() catch() giup kiem soat hau het cac ngoai le phat sinh
+        /// Dùng cấu trúc try() catch() giúp kiểm soát hầu hết các lỗi ngoại lệ phát sinh
         /// ngoai y muon, nhưng sẽ làm chậm quá trình Debug chương trình
         /// có thể không dùng cấu trúc này để Debug chương trình nhanh hơn
         /// vì các trường hợp lỗi cũng đã được kiểm soát khá chặt chẽ
