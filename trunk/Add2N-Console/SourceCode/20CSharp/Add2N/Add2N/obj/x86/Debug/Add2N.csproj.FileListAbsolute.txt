@@ -3,3 +3,5 @@ C:\Users\Admin\Desktop\New folder\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\
 C:\Users\Admin\Desktop\New folder\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\New folder\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.exe
 C:\Users\Admin\Desktop\New folder\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
+D:\Hoc tap\Open one edu\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+D:\Hoc tap\Open one edu\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb

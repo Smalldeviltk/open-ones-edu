@@ -11,7 +11,25 @@ namespace Add2N
 		// Main function
         static void Main(string[] args)
         {
-
+            if (args.Length == 2)
+            {
+                string n1 = args[0];
+                string n2 = args[1];
+                if (!checkNumString(n1))
+                    if (!checkNumString(n2))
+                        Console.WriteLine(n1 + ", " + n2 + " khong hop le");
+                    else
+                        Console.WriteLine(n1 + " khong hop le");
+                else if (!checkNumString(n2))
+                    Console.WriteLine(n2 + " khong hop le");
+                else
+                {
+                    string nSum = Add(n1, n2);
+                    Console.WriteLine(n1 + " + " + n2 + " = " + nSum);
+                }
+            }
+            else
+                Console.WriteLine("Ban phai nhap 2 doi so cho chuong trinh");
         }
 
         /// <summary>
