@@ -15,6 +15,7 @@ namespace Add2N
 {
     class View
     {
+        // Hàm hiển thị thông tin và cách sử dụng chương trình
         public static void TitleIntro()
         {
             Console.WriteLine(" ---------------------------------------------------");
@@ -22,18 +23,24 @@ namespace Add2N
             Console.WriteLine("| Cu phap chuong trinh: Add2N <thamso1> <thamso2>   |");
             Console.WriteLine(" ---------------------------------------------------");
         }
+        // Hàm nhập thông số đầu vào
         public static string[] Input()
         {
             string strTemp;
             string[] temp;
             Console.Write("Nhap: ");
+            /**
+             * Dùng kết hợp Trim() và Split() để tách chuỗi riêng với các khoảng trắng
+             * StringSplitOption.RemoveEmptyEntries để xóa bỏ khoảng trắng
+             */
             strTemp = Console.ReadLine().Trim();
             temp = strTemp.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             return temp;
         }
+        // Hàm hiển thị kết quả ra màn hình Console
         public static void Output(string strResult)
         {
             Console.WriteLine(strResult);
-        } 
+        }
     }
 }
