@@ -12,6 +12,7 @@
 ///     DATE            AUTHOR              DESCRIPTION
 /// -----------------------------------------------------
 ///  23/04/2012     Nguyen Khac Trung       Creating
+///  24/04/2012     Truong Le Van Cuong     Add Delete0String and ReverseString Func
 ///
 //////////////////////////////////////////////////////////////////////////
 
@@ -32,6 +33,28 @@ namespace Add2N
         public View(string[] _str)
         {
             m_str = _str;
+        }
+
+        public void Delete0InString(ref string _str)
+        {
+            for (int i = 0; i < _str.Length - 1; ++i)
+            {
+                if (_str[i] == '0')
+                {
+                    _str.Remove(0); //Delete Zero
+                }
+                else
+                {
+                    return; // Exit loop
+                }
+            }
+        }
+
+        public string ReverseString(string _str)
+        {
+            char[] charArray = _str.ToCharArray(); // Convert string to array
+            Array.Reverse(charArray); // Reverse array
+            return new string(charArray); // Return string was reversed
         }
 
         /// <summary>
