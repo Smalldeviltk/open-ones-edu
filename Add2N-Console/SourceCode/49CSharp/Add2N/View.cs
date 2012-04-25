@@ -14,6 +14,7 @@
 ///  23/04/2012     Nguyen Khac Trung       Creating
 ///  24/04/2012     Truong Le Van Cuong     Add Delete0String and ReverseString Func
 ///  24/04/2012     Pham Van Tu             Add IsHaveError Func
+///  25/04/2012     Phan Hoài               Add ExportResult Func
 ///
 //////////////////////////////////////////////////////////////////////////
 
@@ -118,6 +119,12 @@ namespace Add2N
         /// <param name="_result"> result </param>
         public void ExportResult(string _number1, string _number2, string _result)
         {
+            Console.WriteLine(ReverseString(_number1) +
+                                " + " +
+                                ReverseString(_number2) +
+                                " = " +
+                                ReverseString(_result));
+            Console.WriteLine("*-----------------------------*");
         }
     }
 }
