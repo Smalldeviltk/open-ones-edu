@@ -13,7 +13,8 @@
 /// -----------------------------------------------------
 ///  23/04/2012     Nguyen Khac Trung       Creating
 ///  25/04/2012     Pham Tan Long           Add Add2BigInteger Func
-///
+///  25/04/2012     Pham Tan Long           Edit coding convention
+///  
 //////////////////////////////////////////////////////////////////////////
 
 using System;
@@ -25,42 +26,44 @@ namespace Add2N
 {
     class BigInteger
     {
-        // Big Integer
-        string m_bInteger;
+        // string describe the big integer
+        string strInteger;
 
-        // Get and set variable m_bInteger
-        public string BInteger
+        // Get and set variable strInteger
+        public string StringInteger
         {
-            get { return m_bInteger; }
-            set { m_bInteger = value; }
+            get { return strInteger; }
+            set { strInteger = value; }
         }
 
-        // Initialization
+        // Construction
         public BigInteger()
         {
-            m_bInteger = null;
+            strInteger = null;
         }
 
         /// <summary>
         /// Add 2 big integer number 
         /// </summary>
-        /// <param name="_bigInteger"> number will be added</param>
+        /// <param name="bigInteger"> number will be added</param>
         /// <returns> result </returns>
-        public string Add2BigInteger(BigInteger _bigInteger)
+        public string Add2BigInteger(BigInteger bigInteger)
         {
             StringBuilder result = new StringBuilder(); // Result of addition
+
             // Return string is most shortest
-            int length = (BInteger.Length > _bigInteger.BInteger.Length)
-                         ? _bigInteger.BInteger.Length
-                         : BInteger.Length;
+            int length = (StringInteger.Length > bigInteger.StringInteger.Length)
+                         ? bigInteger.StringInteger.Length
+                         : StringInteger.Length;
+
             // Save temp for addition
             int temp = 0;
 
             for (int i = 0; i < length; ++i)
             {
                 // sum of 2 number
-                int sum = Int32.Parse(m_bInteger[i].ToString()) +
-                            Int32.Parse(_bigInteger.BInteger[i].ToString()) +
+                int sum = Int32.Parse(strInteger[i].ToString()) +
+                            Int32.Parse(bigInteger.StringInteger[i].ToString()) +
                             temp;
 
                 temp = sum / 10; // temp of addition
@@ -69,35 +72,37 @@ namespace Add2N
             }
 
             // Continue insert remain of longer string 
-            if (BInteger.Length > length)
+            if (StringInteger.Length > length)
             {
-                for (int i = length; i < BInteger.Length; ++i)
+                for (int i = length; i < StringInteger.Length; ++i)
                 {
-                    int sum = Int32.Parse(m_bInteger[i].ToString()) + temp;
+                    int sum = Int32.Parse(strInteger[i].ToString()) + temp;
                     temp = sum / 10;
                     result.Insert(i, (sum % 10).ToString());
                 }
+
                 // Add temp into result string
                 if (temp > 0)
                 {
-                    result.Insert(BInteger.Length, temp.ToString());
+                    result.Insert(StringInteger.Length, temp.ToString());
                 }
             }
             else
             {
                 // Continue insert remain of longer string 
-                if (_bigInteger.BInteger.Length > length)
+                if (bigInteger.StringInteger.Length > length)
                 {
-                    for (int i = length; i < _bigInteger.BInteger.Length; ++i)
+                    for (int i = length; i < bigInteger.StringInteger.Length; ++i)
                     {
-                        int sum = Int32.Parse(_bigInteger.BInteger[i].ToString()) + temp;
+                        int sum = Int32.Parse(bigInteger.StringInteger[i].ToString()) + temp;
                         temp = sum / 10;
                         result.Insert(i, (sum % 10).ToString());
                     }
+
                     // Add temp into result string
                     if (temp > 0)
                     {
-                        result.Insert(_bigInteger.BInteger.Length, temp.ToString());
+                        result.Insert(bigInteger.StringInteger.Length, temp.ToString());
                     }
                 }
                 else // 2 string's length equal

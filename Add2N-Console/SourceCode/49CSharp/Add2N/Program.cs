@@ -12,7 +12,8 @@
 ///     DATE            AUTHOR              DESCRIPTION
 /// -----------------------------------------------------
 ///  23/04/2012     Nguyen Khac Trung       Creating
-///
+///  25/04/2012     Pham Tan Long           Edit coding convention
+///  
 //////////////////////////////////////////////////////////////////////////
 
 using System;
@@ -26,7 +27,7 @@ namespace Add2N
     {
         static void Main(string[] args)
         {
-            // Initialization
+            // Declare variants
             View view = new View(args);
             BigInteger bigInteger1 = new BigInteger();
             BigInteger bigInteger2 = new BigInteger();
@@ -36,13 +37,16 @@ namespace Add2N
             // Continue if having error
             if (view.IsHaveError(ref bigInteger1, ref bigInteger2))
             {
-                return; // Exit programing
+                // Do nothing
             }
             else
             {
                 //Export result for user
-                view.ExportResult(bigInteger1.BInteger, bigInteger2.BInteger, bigInteger1.Add2BigInteger(bigInteger2));
+                view.ExportResult(bigInteger1.StringInteger, bigInteger2.StringInteger, bigInteger1.Add2BigInteger(bigInteger2));
             }
+
+            // Pause for debugging
+            Console.Read();
         }
     }
 }
