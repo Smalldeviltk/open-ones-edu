@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CTKS_GreatInteger
 {
-    struct Error
+    struct MError
     {
         bool KeyWord;
         bool Space;
@@ -15,8 +15,10 @@ namespace CTKS_GreatInteger
     }
     class CodeAdd2N
     {
-        public string Code { get; set; }
+        public string Code { get; set;}
+        public string Key { get { return "Add2N"; } }//keyword giup nhan dien loai command
         public bool Valid { get; set; }
+
         //constructor
         public CodeAdd2N()
         {
@@ -34,7 +36,7 @@ namespace CTKS_GreatInteger
         //Valid or Invalid
         public string GetError()
         {
-            int space = 0;
+            int space=0;
             for (int i = 0; i < Code.Length; i++)
             {
                 if (Code[i] == ' ')
@@ -43,7 +45,7 @@ namespace CTKS_GreatInteger
                 }
             }
             //Wrong if KeyWord isn't "Add2N"
-            if (Code.Remove(6) != "Add2N ")
+            if(Code.Remove(6)!="Add2N ")
             {
                 return "KeyWord";
             }
@@ -52,16 +54,21 @@ namespace CTKS_GreatInteger
             {
                 return "Space";
             }
-            return "Right";
+                return "Right";
+        }
+        //get Error
+        public string GetError()
+        {
+            return ""; 
         }
 
         //Get number 1
         public string Number1()
         {
 
+            
 
-
-            int head = Code.IndexOf(" ") + 1; //vị trí kí tự đầu của chuỗi số 1(đứng sau space thứ 1)
+            int head = Code.IndexOf(" ")+1; //vị trí kí tự đầu của chuỗi số 1(đứng sau space thứ 1)
             int tail = Code.IndexOf(" ", head); //vị trí cuối của chuỗi số 1 (đứng trước space thứ 2)
 
 
@@ -71,12 +78,12 @@ namespace CTKS_GreatInteger
         //Get number 2
         public string Number2()
         {
+           
+            
+     
+           
 
-
-
-
-
-            int head = Code.IndexOf(" ", Code.IndexOf(" ") + 1) + 1;
+            int head = Code.IndexOf(" ",Code.IndexOf(" "))+1;
 
             int tail = Code.Length;
 
