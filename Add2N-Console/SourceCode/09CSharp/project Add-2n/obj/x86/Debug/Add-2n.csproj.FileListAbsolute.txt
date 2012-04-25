@@ -10,3 +10,5 @@ C:\Users\Dieu Lien\Desktop\project nhom 9\project Add-2n\bin\Debug\Add-2n.pdb
 C:\Users\Dieu Lien\Desktop\project nhom 9\project Add-2n\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Dieu Lien\Desktop\New folder (2)\project Add-2n\obj\x86\Debug\Add-2n.exe
 C:\Users\Dieu Lien\Desktop\New folder (2)\project Add-2n\obj\x86\Debug\Add-2n.pdb
+E:\tung\tai lieu hoc tap\xa hoi\nhap mon cong tac ki su\open-ones-edu\Add2N-Console\SourceCode\09CSharp\project Add-2n\obj\x86\Debug\Add-2n.exe
+E:\tung\tai lieu hoc tap\xa hoi\nhap mon cong tac ki su\open-ones-edu\Add2N-Console\SourceCode\09CSharp\project Add-2n\obj\x86\Debug\Add-2n.pdb
