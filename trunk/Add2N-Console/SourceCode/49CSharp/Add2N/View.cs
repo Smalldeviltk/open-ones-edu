@@ -16,7 +16,8 @@
 ///  24/04/2012     Pham Van Tu             Add IsHaveError Func
 ///  25/04/2012     Phan Hoài               Add ExportResult Func
 ///  25/04/2012     Nguyen Khac Trung       Fix comment for Delete0String and ReverseString Func
-///
+///  25/04/2012     Pham Tan Long           Edit coding convention
+///  
 //////////////////////////////////////////////////////////////////////////
 
 using System;
@@ -30,25 +31,26 @@ namespace Add2N
     class View
     {
         // Input
-        private string[] m_str;
+        private string[] strInput;
 
         // Initialization
-        public View(string[] _str)
+        public View(string[] str)
         {
-            m_str = _str;
+            strInput = str;
         }
+
 
         /// <summary>
         ///  Delete zero before string (Exception number 0)
         /// </summary>
-        /// <param name="_str"> String will be processed</param>
-        public void Delete0InString(ref string _str)
+        /// <param name="str"> String will be processed</param>
+        public void Delete0InString(ref string str)
         {
-            for (int i = 0; i < _str.Length - 1; ++i)
+            for (int i = 0; i < str.Length - 1; ++i)
             {
-                if (_str[i] == '0')
+                if (str[i] == '0')
                 {
-                    _str.Remove(0); //Delete Zero
+                    str.Remove(0); //Delete Zero
                 }
                 else
                 {
@@ -57,28 +59,30 @@ namespace Add2N
             }
         }
 
+
         /// <summary>
         /// Reveres string
         /// </summary>
-        /// <param name="_str"> String will be reversed</param>
+        /// <param name="str"> String will be reversed</param>
         /// <returns> String was reversed</returns>
-        public string ReverseString(string _str)
+        public string ReverseString(string str)
         {
-            char[] charArray = _str.ToCharArray(); // Convert string to array
+            char[] charArray = str.ToCharArray(); // Convert string to array
             Array.Reverse(charArray); // Reverse array
             return new string(charArray); // Return string was reversed
         }
 
+
         /// <summary>
         /// Check error for input
         /// </summary>
-        /// <param name="_bigInteger1"></param>
-        /// <param name="_bigInteger2"></param>
-        /// <returns></returns>
-        public bool IsHaveError(ref BigInteger _bigInteger1, ref BigInteger _bigInteger2)
+        /// <param name="bigInteger1">The first big number</param>
+        /// <param name="bigInteger2">The second big number</param>
+        /// <returns>The value number1 + number2</returns>
+        public bool IsHaveError(ref BigInteger bigInteger1, ref BigInteger bigInteger2)
         {
             // Check syntax
-            if (m_str.Length != 2)
+            if (strInput.Length != 2)
             {
                 Console.WriteLine("Sai cu phap! Cu phap: Add2N <SoThu1> <SoThu2>");
                 Console.WriteLine("*-----------------------------*");
@@ -91,49 +95,49 @@ namespace Add2N
                 Regex myRegex = new Regex(@"^\d{1,}$"); // Condition
 
                 // Check error for number 1
-                if (!myRegex.IsMatch(m_str[0]))
+                if (!myRegex.IsMatch(strInput[0]))
                 {
                     error = true; // Having error
-                    Console.Write(m_str[0] + " ");
+                    Console.Write(strInput[0] + " ");
                 }
 
                 // Check error for number 1
-                if (!myRegex.IsMatch(m_str[1]))
+                if (!myRegex.IsMatch(strInput[1]))
                 {
                     error = true; // Having error
-                    Console.Write(m_str[1] + " ");
+                    Console.Write(strInput[1] + " ");
                 }
 
                 if (error)
                 {
-                    Console.WriteLine("khong hop le!");
+                    Console.WriteLine("Khong hop le!");
                     Console.WriteLine("*-----------------------------*");
 
                     return true; // Return having error
                 }
             }
-
-            Delete0InString(ref m_str[0]);
-            _bigInteger1.BInteger = ReverseString(m_str[0]);
-            Delete0InString(ref m_str[1]);
-            _bigInteger2.BInteger = ReverseString(m_str[1]);
+            Delete0InString(ref strInput[0]);
+            bigInteger1.StringInteger = ReverseString(strInput[0]);
+            Delete0InString(ref strInput[1]);
+            bigInteger2.StringInteger = ReverseString(strInput[1]);
 
             return false; // None having error
         }
 
+
         /// <summary>
         /// Export result for user
         /// </summary>
-        /// <param name="_number1"> number 1 </param>
-        /// <param name="_number2"> number 2 </param>
-        /// <param name="_result"> result </param>
-        public void ExportResult(string _number1, string _number2, string _result)
+        /// <param name="number1"> number 1 </param>
+        /// <param name="number2"> number 2 </param>
+        /// <param name="result"> result </param>
+        public void ExportResult(string number1, string number2, string result)
         {
-            Console.WriteLine(ReverseString(_number1) +
+            Console.WriteLine(ReverseString(number1) +
                                 " + " +
-                                ReverseString(_number2) +
+                                ReverseString(number2) +
                                 " = " +
-                                ReverseString(_result));
+                                ReverseString(result));
             Console.WriteLine("*-----------------------------*");
         }
     }
