@@ -1,0 +1,26 @@
+﻿NỘI DUNG CÔNG VIỆC
+
+1. Thắng: Viết hàm main (Program.cs)
+	- Chạy thử kiểm tra, sửa lỗi
+	- Sử dụng 2 class: Logic và View để thực hiện bài toán
+	- Nhập 2 số cần tính, hiển thị lỗi nếu dữ liệu nhập sai. Dùng hàm add2N để tính, showResult để hiển thị kết quả
+
+2. Lịch: Viết hàm add2N của class Logic
+	- Đầu vào 2 chuỗi s1, s2 ( mặc đinh s1 > s2)
+	- Đầu ra là chuỗi kết quả s3. (s3 = s1 + s2)
+
+
+3. Nam: Viết hàm isNumber(s) của class Logic
+
+	- Đầu vào là một chuỗi s
+	- Đầu ra là biến Boolean: true nếu s chuyển được sang số, flase nếu ngược lại
+
+
+4. Tùng: Viết hàm View(), setNumber(x, y) của class View
+	- Hàm View(), constructor của class.
+	- Hàm setNumber(x, y): dữ liệu vào là 2 chuỗi x, y. chúng gán giá trị cho 2 biến s1, s2 của class. Với điều kiện s1 >  s2.
+
+5. Nhân: Viết hàm showResult(x, y) của class View
+	- Đầu vào 2 chuỗi x, y (giá trị cần tính)
+	- Tạo đối tượng class Logic để dùng hàm tính toán
+	- Hiển thị kết quả tính (x + y = kết quả)
