@@ -71,6 +71,18 @@ namespace add_2n
             }
             return this.s3; ///Tra ve
         }
+
+        //Kiem tra du lieu nhap co hop le hay khong???
+        //  Hop le tr ve true, nguoc lai la false
+        public Boolean isNumber(String s)
+        {
+            foreach (Char c in s)
+            {
+                if (!Char.IsDigit(c))
+                    return false;
+            }
+            return true;
+        }
         
     }
 }
