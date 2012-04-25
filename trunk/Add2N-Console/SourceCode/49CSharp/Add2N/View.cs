@@ -15,6 +15,7 @@
 ///  24/04/2012     Truong Le Van Cuong     Add Delete0String and ReverseString Func
 ///  24/04/2012     Pham Van Tu             Add IsHaveError Func
 ///  25/04/2012     Phan Hoài               Add ExportResult Func
+///  25/04/2012     Nguyen Khac Trung       Fix comment for Delete0String and ReverseString Func
 ///
 //////////////////////////////////////////////////////////////////////////
 
@@ -37,6 +38,10 @@ namespace Add2N
             m_str = _str;
         }
 
+        /// <summary>
+        ///  Delete zero before string (Exception number 0)
+        /// </summary>
+        /// <param name="_str"> String will be processed</param>
         public void Delete0InString(ref string _str)
         {
             for (int i = 0; i < _str.Length - 1; ++i)
@@ -52,6 +57,11 @@ namespace Add2N
             }
         }
 
+        /// <summary>
+        /// Reveres string
+        /// </summary>
+        /// <param name="_str"> String will be reversed</param>
+        /// <returns> String was reversed</returns>
         public string ReverseString(string _str)
         {
             char[] charArray = _str.ToCharArray(); // Convert string to array
