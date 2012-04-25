@@ -1,0 +1,5 @@
+D:\open-ones-edu\Add2N-Console\SourceCode\15CSharp\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\open-ones-edu\Add2N-Console\SourceCode\15CSharp\Add2N\Add2N\bin\Debug\Add2N.exe
+D:\open-ones-edu\Add2N-Console\SourceCode\15CSharp\Add2N\Add2N\bin\Debug\Add2N.pdb
+D:\open-ones-edu\Add2N-Console\SourceCode\15CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+D:\open-ones-edu\Add2N-Console\SourceCode\15CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
