@@ -9,23 +9,23 @@ namespace Add2N
     class Program
     {
 		// Main function
-        static void Main(string[] args)
+        static void Main(string[] strArgs)
         {
-            if (args.Length == 2)
+            if (strArgs.Length == 2)
             {
-                string n1 = args[0];
-                string n2 = args[1];
-                if (!checkNumString(n1))
-                    if (!checkNumString(n2))
-                        Console.WriteLine(n1 + ", " + n2 + " khong hop le");
+                string str1 = strArgs[0];
+                string str2 = strArgs[1];
+                if (!CheckNumString(str1))
+                    if (!CheckNumString(str2))
+                        Console.WriteLine(str1 + ", " + str2 + " khong hop le");
                     else
-                        Console.WriteLine(n1 + " khong hop le");
-                else if (!checkNumString(n2))
-                    Console.WriteLine(n2 + " khong hop le");
+                        Console.WriteLine(str1 + " khong hop le");
+                else if (!CheckNumString(str2))
+                    Console.WriteLine(str2 + " khong hop le");
                 else
                 {
-                    string nSum = Add(n1, n2);
-                    Console.WriteLine(n1 + " + " + n2 + " = " + nSum);
+                    string strSum = Add(str1, str2);
+                    Console.WriteLine(str1 + " + " + str2 + " = " + strSum);
                 }
             }
             else
@@ -38,28 +38,28 @@ namespace Add2N
         /// <param name="num1">First number</param>
         /// <param name="num2">Second number</param>
         /// <returns>Sum of numbers</returns>
-        static string Add(string num1, string num2)
+        static string Add(string strNum1, string strNum2)
         {
             Stack myStack1 = new Stack();
             Stack myStack2 = new Stack();
-            for (int i = 0; i < num1.Length; i++)
-                myStack1.Push(byte.Parse(num1.Substring(i, 1)));
-            for (int j = 0; j < num2.Length; j++)
-                myStack2.Push(byte.Parse(num2.Substring(j, 1)));
-            int mNum = 0;
-            string returnNum = "";
+            for (int i = 0; i < strNum1.Length; i++)
+                myStack1.Push(byte.Parse(strNum1.Substring(i, 1)));
+            for (int j = 0; j < strNum2.Length; j++)
+                myStack2.Push(byte.Parse(strNum2.Substring(j, 1)));
+            int intNum = 0;
+            string returnStr = "";
             while (true)
             {
                 int n1, n2;
                 n1 = myStack1.Count > 0 ? (byte) myStack1.Pop() : 0;
                 n2 = myStack2.Count > 0 ? (byte) myStack2.Pop() : 0;
-                int tong = n1 + n2 + mNum;
+                int tong = n1 + n2 + intNum;
                 if (tong == 0)
                     break;
-                mNum = tong > 9 ? 1 : 0;
-                returnNum = (tong > 9 ? tong - 10 : tong).ToString() + returnNum;
+                intNum = tong > 9 ? 1 : 0;
+                returnStr = (tong > 9 ? tong - 10 : tong).ToString() + returnStr;
             }
-            return returnNum;
+            return returnStr;
         }
 
         /// <summary>
@@ -67,12 +67,12 @@ namespace Add2N
         /// </summary>
         /// <param name="num">String input</param>
         /// <returns>true if this string is a numbers string\n else return false</returns>
-        static bool checkNumString(string num)
+        static bool CheckNumString(string strNum)
         {
-            char[] numArray = num.ToCharArray();
+            char[] charArray = strNum.ToCharArray();
             string strCompare = "0123456789";
-            foreach (char eNum in numArray)
-                if (strCompare.IndexOf(eNum) < 0)
+            foreach (char charNum in charArray)
+                if (strCompare.IndexOf(charNum) < 0)
                     return false;
             return true;
         }
