@@ -30,13 +30,7 @@ namespace Add_2n
                 this.s2 = x;
             }
         }
-	//Hien thi ket qua
-	public void showResult(String x, String y)
-        {
-            Logic bNumber = new Logic();
-            String s = bNumber.add2N(this.s1, this.s2);
-            Console.WriteLine("\tKet qua: {0} + {1} = {2}", x, y, s);
-        }
+	
 
     }
 }
