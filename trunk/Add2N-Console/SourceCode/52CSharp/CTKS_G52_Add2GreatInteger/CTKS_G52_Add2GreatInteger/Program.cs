@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace CTKS_GreatInteger
 {
@@ -9,14 +10,33 @@ namespace CTKS_GreatInteger
     {
         static void Main(string[] args)
         {
-            //test
-            GreatInt num1 =new GreatInt("34");
-            GreatInt num2 = new GreatInt("43");
-            GreatInt num3 = new GreatInt("154");
+            bool exit = false;
+            string command = "";
+            do
+            {
+                Console.Write("Your command: ");
+                command = Console.ReadLine();
 
-            Console.WriteLine((num1+num2+num3).Number);
 
-            Console.ReadLine();
+                if (((command.Length == 5) && (command.Substring(0, 5).CompareTo("Add2N") == 0)) || ((command.Length >= 6) && (command.Substring(0, 6).CompareTo("Add2N ") == 0)))
+                {
+                    //do sonething;
+                    Console.WriteLine(command.Substring(0, 5));
+                }
+                else
+                {
+                    if (command == "exit")
+                    {
+                        exit = true;
+                    }else
+                        Console.WriteLine("System Message: Command not found\n");
+                }
+
+                
+            } while (exit == false);
+            
+
+            
         }
     }
 }
