@@ -12,6 +12,7 @@
 ///     DATE            AUTHOR              DESCRIPTION
 /// -----------------------------------------------------
 ///  23/04/2012     Nguyen Khac Trung       Creating
+///  25/04/2012     Pham Tan Long           Add Add2BigInteger Func
 ///
 //////////////////////////////////////////////////////////////////////////
 
@@ -47,7 +48,69 @@ namespace Add2N
         /// <returns> result </returns>
         public string Add2BigInteger(BigInteger _bigInteger)
         {
-            return null;
+            StringBuilder result = new StringBuilder(); // Result of addition
+            // Return string is most shortest
+            int length = (BInteger.Length > _bigInteger.BInteger.Length)
+                         ? _bigInteger.BInteger.Length
+                         : BInteger.Length;
+            // Save temp for addition
+            int temp = 0;
+
+            for (int i = 0; i < length; ++i)
+            {
+                // sum of 2 number
+                int sum = Int32.Parse(m_bInteger[i].ToString()) +
+                            Int32.Parse(_bigInteger.BInteger[i].ToString()) +
+                            temp;
+
+                temp = sum / 10; // temp of addition
+
+                result.Insert(i, (sum % 10).ToString()); // Insert sum into result string
+            }
+
+            // Continue insert remain of longer string 
+            if (BInteger.Length > length)
+            {
+                for (int i = length; i < BInteger.Length; ++i)
+                {
+                    int sum = Int32.Parse(m_bInteger[i].ToString()) + temp;
+                    temp = sum / 10;
+                    result.Insert(i, (sum % 10).ToString());
+                }
+                // Add temp into result string
+                if (temp > 0)
+                {
+                    result.Insert(BInteger.Length, temp.ToString());
+                }
+            }
+            else
+            {
+                // Continue insert remain of longer string 
+                if (_bigInteger.BInteger.Length > length)
+                {
+                    for (int i = length; i < _bigInteger.BInteger.Length; ++i)
+                    {
+                        int sum = Int32.Parse(_bigInteger.BInteger[i].ToString()) + temp;
+                        temp = sum / 10;
+                        result.Insert(i, (sum % 10).ToString());
+                    }
+                    // Add temp into result string
+                    if (temp > 0)
+                    {
+                        result.Insert(_bigInteger.BInteger.Length, temp.ToString());
+                    }
+                }
+                else // 2 string's length equal
+                {
+                    // Add temp into result string
+                    if (temp > 0)
+                    {
+                        result.Insert(length, temp.ToString());
+                    }
+                }
+            }
+
+            return result.ToString(); // return result string
         }    
     }
 }
