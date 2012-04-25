@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Add2N
 {
+    /*
+     * Lớp View, giao tiếp với người dùng
+     */
     class View
     {
         public View()
@@ -23,10 +26,15 @@ namespace Add2N
             }
             Console.WriteLine("Ans = {0}", temp1);
         }
+
+        /*
+         * Kiểm tra các số có hợp lệ
+         */
         private bool IsValid(string strnumber)
         {
             for (int i = 0; i < strnumber.Count(); i++)
             {
+                // Kiểm tra từng chữ cái coi có nằm ngoài dãy chữ số 0 -> 9 ko
                 if (!((strnumber[i] < 58) && (strnumber[i] > 47)))
                 {
                     return false;
@@ -34,6 +42,10 @@ namespace Add2N
             }
             return true;
         }
+
+        /*
+         *  Hàm chuyển từ char array to List<int>
+         */
         private List<int> CharArrayToList(char[] number)
         {
             List<int> result = new List<int>();
@@ -44,18 +56,22 @@ namespace Add2N
             return result;
         }
 
-
+        /*
+         * Hàm kiểm tra người dùng nhập
+         */
         public bool Input(out List<int> listNumber1, out List<int> listNumber2)
         {
+            // Định nghĩa và khởi tạo vùng nhớ
             listNumber1 = new List<int>();
             listNumber2 = new List<int>();
             string strInput = Console.ReadLine();
             string[] strTemp1 = strInput.Split(' ');
 
-            if (strTemp1[0] == "Add2N") 
+            if (strTemp1[0] == "Add2N") // Kiểm tra câu lệnh Add2N
             {
-                if (!IsValid(strTemp1[1]) || (!IsValid(strTemp1[2])))
+                if (!IsValid(strTemp1[1]) || (!IsValid(strTemp1[2]))) // Kiểm tra các tham số có phải là chử số không
                 {
+                    // In ra màn hình lỗi chi tiết (nếu có)
                     if (!IsValid(strTemp1[1]))
                     {
                         Console.Write("{0} ", strTemp1[1]);
@@ -70,14 +86,16 @@ namespace Add2N
                 }
                 else
                 {
+                    // Nếu không có lỗi thì tiến hành chuyễn dữ liệu từ string sang List<>
                     listNumber1 = CharArrayToList(strTemp1[1].ToCharArray());
                     listNumber2 = CharArrayToList(strTemp1[2].ToCharArray());
 
-                    return true;
+                    return true; // Trả về true
                 }
             }
             else
             {
+                // In ra màn hình lỗi Command
                 Console.WriteLine("{0} command does not exist", strTemp1[0]);
                 return false;
             }
