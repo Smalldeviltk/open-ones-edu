@@ -8,6 +8,8 @@ namespace CTKS_GreatInteger
     class GreatInt
     {
         public string Number {get;set;}
+        public int Length { get { return Number.Length; } }
+
         public GreatInt()
         {
             Number = "0";
@@ -23,7 +25,7 @@ namespace CTKS_GreatInteger
             string s = ""; //lưu lại kết quả, theo chiều ngược;
             int extra = 0; //Số bù dư của phép cộng 2 chữ số
             //Việc cộng bắt đầu từ cuối 2 số đến đầu của Số dài nhất
-            for (int i = GInt1.Number.Length-1, j = GInt2.Number.Length-1; (j>=0)||(i>=0); i--, j--)
+            for (int i = GInt1.Length-1, j = GInt2.Number.Length-1; (j>=0)||(i>=0); i--, j--)
             {
                 //Quy đồi chữ số kiểu char ra kiểu int để cộng
                 int IntNum1 =(i < 0)?  IntNum1 = 48:(int)GInt1.Number[i];                   
