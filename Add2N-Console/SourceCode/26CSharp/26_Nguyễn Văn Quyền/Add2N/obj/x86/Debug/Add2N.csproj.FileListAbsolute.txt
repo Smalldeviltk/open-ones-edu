@@ -7,3 +7,8 @@ C:\Documents and Settings\Administrator\Desktop\Hoc tap\COngTacKySu\Seminar\New 
 C:\Documents and Settings\Administrator\Desktop\Hoc tap\COngTacKySu\Seminar\New Folder\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
 C:\Documents and Settings\Administrator\Desktop\Hoc tap\COngTacKySu\Seminar\26CSharp\Add2N\obj\x86\Debug\Add2N.exe
 C:\Documents and Settings\Administrator\Desktop\Hoc tap\COngTacKySu\Seminar\26CSharp\Add2N\obj\x86\Debug\Add2N.pdb
+D:\SourceCode\26CSharp\26_Nguyễn Văn Quyền\Add2N\obj\x86\Debug\Add2N.exe
+D:\SourceCode\26CSharp\26_Nguyễn Văn Quyền\Add2N\obj\x86\Debug\Add2N.pdb
+D:\SourceCode\26CSharp\26_Nguyễn Văn Quyền\Add2N\bin\Debug\Add2N.exe
+D:\SourceCode\26CSharp\26_Nguyễn Văn Quyền\Add2N\bin\Debug\Add2N.pdb
+D:\SourceCode\26CSharp\26_Nguyễn Văn Quyền\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
