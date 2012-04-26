@@ -20,3 +20,8 @@ C:\Users\Kqthang\Desktop\09CSharp\project Add-2n\obj\x86\Debug\ResolveAssemblyRe
 C:\Users\Dieu Lien\Desktop\New folder (2)\project Add-2n\bin\Debug\Add-2n.exe
 C:\Users\Dieu Lien\Desktop\New folder (2)\project Add-2n\bin\Debug\Add-2n.pdb
 C:\Users\Dieu Lien\Desktop\New folder (2)\project Add-2n\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jos-Nhan\Desktop\09CSharp\project Add-2n\obj\x86\Debug\Add-2n.exe
+C:\Users\Jos-Nhan\Desktop\09CSharp\project Add-2n\obj\x86\Debug\Add-2n.pdb
+C:\Users\Jos-Nhan\Desktop\09CSharp\project Add-2n\bin\Debug\Add-2n.exe
+C:\Users\Jos-Nhan\Desktop\09CSharp\project Add-2n\bin\Debug\Add-2n.pdb
+C:\Users\Jos-Nhan\Desktop\09CSharp\project Add-2n\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -31,14 +31,14 @@ namespace Add_2n
             }
         }
 
-        //Hien thi ket qua ra man hinh
-        //  Lay phuong thuc add2N cua class Logic de tinh toan
+        //  Hiển thị ra màn hình
+        //  Lấy phương thức add2N của class Logic để tính toán
         
         public void showResult(String x, String y)
         {
             Logic bNumber = new Logic();
             String s = bNumber.add2N(this.s1, this.s2);
-            Console.WriteLine("\tKet Qua: {0} + {1} = {2}", x, y, s);
+            Console.WriteLine("\n\tKet Qua: {0} + {1} = {2}", x, y, s);
         }
 
     }

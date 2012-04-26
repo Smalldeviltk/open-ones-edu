@@ -17,7 +17,7 @@ namespace Add_2n
 
             Console.WriteLine("\t\tChuong trinh cong 2 so nguyen duong lon.");
             ///Nhap 2 so: so1 so2
-            Console.Write("\tAdd2N: ");
+            Console.Write("\n\tNhap so thu 1: ");
             String s = Console.ReadLine();
 
             //Gan gia tri cho s1, s2
@@ -25,7 +25,7 @@ namespace Add_2n
             if (x == -1)            //Neu khong co khoang trang thi nhap theo nhan Enter
             {
                 s1 = s;
-                Console.Write("\t\tNhap so thu 2: ");
+                Console.Write("\n\t\tNhap so thu 2: ");
                 s2 = Console.ReadLine();
             }
             else
