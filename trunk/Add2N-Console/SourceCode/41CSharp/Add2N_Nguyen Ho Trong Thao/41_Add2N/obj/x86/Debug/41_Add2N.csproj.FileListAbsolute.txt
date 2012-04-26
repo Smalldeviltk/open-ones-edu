@@ -1,0 +1,5 @@
+c:\users\trongthao\documents\visual studio 2010\Projects\41_Add2N\41_Add2N\bin\Debug\41_Add2N.exe
+c:\users\trongthao\documents\visual studio 2010\Projects\41_Add2N\41_Add2N\bin\Debug\41_Add2N.pdb
+c:\users\trongthao\documents\visual studio 2010\Projects\41_Add2N\41_Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\trongthao\documents\visual studio 2010\Projects\41_Add2N\41_Add2N\obj\x86\Debug\41_Add2N.exe
+c:\users\trongthao\documents\visual studio 2010\Projects\41_Add2N\41_Add2N\obj\x86\Debug\41_Add2N.pdb
