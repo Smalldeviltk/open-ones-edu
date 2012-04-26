@@ -9,6 +9,9 @@ namespace Add2N_45
     {
         static void Main(string[] args)
         {
+            Console.Clear();
+            Add2N add_2N = new Add2N();
+            add_2N.Action();
         }
     }
 }

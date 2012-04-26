@@ -41,5 +41,22 @@ namespace Add2N_45
                 }
             }
         }
+
+        //Kiểm tra lỗi ,thực thì và hiển thị kết quả nếu không lỗi
+        public void Action()
+        {
+            //Nếu cả 2 số nguyên đều hợp lệ thì thực thi chương trình
+            if (N1.IsLargeInt && N2.IsLargeInt)
+            {
+                N3 = N1 + N2;
+                Console.WriteLine(N1.Large_Int + "+" + N2.Large_Int + "=" + N3.Large_Int);
+            }
+            //Thông báo số nguyên thứ I không hợp lệ
+            if (!N1.IsLargeInt)
+                Console.WriteLine(N1.Large_Int + " Khong Hop Le");
+            //Thông báo số nguyên thứ II không hợp lệ
+            if (!N2.IsLargeInt)
+                Console.WriteLine(N2.Large_Int + " Khong Hop Le");
+        }
     }
 }
