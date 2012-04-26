@@ -11,31 +11,32 @@ namespace CTKS_GreatInteger
         static void Main(string[] args)
         {
             bool exit = false;
-            CodeAdd2N command = new CodeAdd2N();
+            string command = "";
             Console.Write("UITer's Software (version 1.0), Produced in 2012\n");
             do
             {
                 
                 Console.Write("\nYour command: ");
-                command = new CodeAdd2N(Console.ReadLine());
+                command = Console.ReadLine();
                 
-                if (((command.Code.Length == 5) && (command.Code.Substring(0, 5)== command.Key) || ((command.Code.Length >= 6) && (command.Code.Substring(0, 6).CompareTo("Add2N ") == 0))))
+                if (((command.Length == 5) && (command.Substring(0, 5)== CodeAdd2N.Key) || ((command.Length >= 6) && (command.Substring(0, 6) == (CodeAdd2N.Key+" ")))))
                 {
-                    if (!command.Valid())
+                    CodeAdd2N comAdd2N = new CodeAdd2N(command);
+                    if (!comAdd2N.Valid())
                     {
-                        Console.WriteLine(command.ErrorMessage());
+                        Console.WriteLine(comAdd2N.ErrorMessage());
                     }
                     else
                     {
-                        GreatInt n1 = new GreatInt(command.Number1());
-                        GreatInt n2 = new GreatInt(command.Number2());
+                        GreatInt n1 = new GreatInt(comAdd2N.Number1());
+                        GreatInt n2 = new GreatInt(comAdd2N.Number2());
                         Console.WriteLine(n1.Number+" + "+n2.Number+" = "+(n1 + n2).Number);
                     }
                     
                 }
                 else
                 {
-                    if (command.Code == "exit")
+                    if (command == "exit")
                     {
                         exit = true;
                     }else
