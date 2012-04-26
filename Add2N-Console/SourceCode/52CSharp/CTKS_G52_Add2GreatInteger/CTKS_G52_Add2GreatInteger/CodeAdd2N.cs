@@ -36,21 +36,25 @@ namespace CTKS_GreatInteger
         }
 
 
-        //Get number 1
-        public string Number1()
+
+        //Get number 1 (wrong or right)
+        public string GetNumber1()
         {
             int head = Code.IndexOf(" ") + 1; //vị trí kí tự đầu của chuỗi số 1(đứng sau space thứ 1)
             int tail = Code.IndexOf(" ", head); //vị trí cuối của chuỗi số 1 (đứng trước space thứ 2)
             return Code.Substring(head, tail - head);
         }
 
-        //Get number 2
-        public string Number2()
+        //Get number 2 (wrong or right)
+        public string GetNumber2()
         {
             int head = Code.IndexOf(" ", Code.IndexOf(" ")) + 1;
             int tail = Code.Length;
             return Code.Substring(head, tail - head);
         }
+
+
+        
 
         //get Error type
         public Add2NError ErrorType()
@@ -119,30 +123,83 @@ namespace CTKS_GreatInteger
 
         //get Error Message
         public string ErrorMessage()
-        {
-            int space = 0;
-            for (int i = 0; i < Code.Length; i++)
+        {          
+            //KeyWord is wrong
+            if (ErrorType().KeyWord)
             {
-                if (Code[i] == ' ')
+                return "Wrong Form! Right Form: Add2N <number1> <number2>";
+            }
+
+            //wrong if the other 2 spacious
+            if (ErrorType().AllNum)
+            {
+                string s1 = "";
+                for (int i = 0; i < GetNumber1().Length; i++)
                 {
-                    space++;
+                    if (GetNumber1()[i] < '0' || GetNumber1()[i] > '9')
+                    {
+                        s1 += GetNumber1()[i];
+                    }
+                }
+
+                string s2 = "";
+                for (int i = 0; i < GetNumber2().Length; i++)
+                {
+                    if (GetNumber1()[i] < '0' || GetNumber1()[i] > '9')
+                    {
+                        s2 += GetNumber1()[i];
+                    }
+                }
+
+                return s1 + " ," + s2 + " is invalid";
+            }
+            else
+            {
+                if (ErrorType().Num1)
+                {
+                    string s1 = "";
+                    for (int i = 0; i < GetNumber1().Length; i++)
+                    {
+                        if (GetNumber1()[i] < '0' || GetNumber1()[i] > '9')
+                        {
+                            s1 += GetNumber1()[i];
+                        }
+                    }
+                    return s1 + " is invalid";
+                }
+                if (ErrorType().Num2)
+                {
+                    string s2 = "";
+                    for (int i = 0; i < GetNumber2().Length; i++)
+                    {
+                        if (GetNumber2()[i] < '0' || GetNumber2()[i] > '9')
+                        {
+                            s2 += GetNumber1()[i];
+                        }
+                    }
+                    return s2 + " is invalid";
                 }
             }
-            //Wrong if KeyWord isn't "Add2N"
-            if (Code.Remove(6) != "Add2N ")
-            {
-                return "KeyWord";
-            }
-            //wrong if the other 2 spacious
-            if (space != 2)
-            {
-                return "Space";
-            }
+
+
             return "Right";
         }
 
 
-
+        //Get number 1
+        public string Number1()
+        {
+            int head = Code.IndexOf(" ") + 1; //vị trí kí tự đầu của chuỗi số 1(đứng sau space thứ 1)
+            int tail = Code.IndexOf(" ", head); //vị trí cuối của chuỗi số 1 (đứng trước space thứ 2)
+            return Code.Substring(head, tail - head);
+        }
+        //Get number 2
+        public string Number2()
+        {
+            int head = Code.IndexOf(" ", Code.IndexOf(" ")) + 1;
+            int tail = Code.Length;
+            return Code.Substring(head, tail - head);
+        }    
      
     }
 }
