@@ -12,7 +12,7 @@ namespace CTKS_GreatInteger
         {
             bool exit = false;
             string command = "";
-            Console.Write("UITer's Software (version 1.0), Produced in 2012\n");
+            Console.Write("UITer's Software \"Add 2 Great Interger\" (version 1.0)\nProduced in 2012\n");
             do
             {
                 
@@ -30,7 +30,7 @@ namespace CTKS_GreatInteger
                     {
                         GreatInt n1 = new GreatInt(comAdd2N.Number1());
                         GreatInt n2 = new GreatInt(comAdd2N.Number2());
-                        Console.WriteLine(n1.Number+" + "+n2.Number+" = "+(n1 + n2).Number);
+                        Console.WriteLine("System Message: "+n1.Number+" + "+n2.Number+" = "+(n1 + n2).Number);
                     }
                     
                 }
