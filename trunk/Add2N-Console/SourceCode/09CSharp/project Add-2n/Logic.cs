@@ -1,13 +1,11 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace add_2n
+namespace Add_2n
 {
-    class Add2N
+    class Logic
     {
         private String s3 = "";
 
@@ -83,6 +81,5 @@ namespace add_2n
             }
             return true;
         }
-        
     }
 }
