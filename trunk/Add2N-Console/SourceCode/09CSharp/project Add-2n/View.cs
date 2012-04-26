@@ -38,7 +38,7 @@ namespace Add_2n
         {
             Logic bNumber = new Logic();
             String s = bNumber.add2N(this.s1, this.s2);
-            Console.WriteLine("\tKết Quả: {0} + {1} = {2}", x, y, s);
+            Console.WriteLine("\tKet Qua: {0} + {1} = {2}", x, y, s);
         }
 
     }
