@@ -11,25 +11,35 @@ namespace CTKS_GreatInteger
         static void Main(string[] args)
         {
             bool exit = false;
-            string command = "";
+            CodeAdd2N command = new CodeAdd2N();
+            Console.Write("UITer's Software (version 1.0), Produced in 2012\n");
             do
             {
-                Console.Write("Your command: ");
-                command = Console.ReadLine();
-
-
-                if (((command.Length == 5) && (command.Substring(0, 5).CompareTo("Add2N") == 0)) || ((command.Length >= 6) && (command.Substring(0, 6).CompareTo("Add2N ") == 0)))
+                
+                Console.Write("\nYour command: ");
+                command = new CodeAdd2N(Console.ReadLine());
+                
+                if (((command.Code.Length == 5) && (command.Code.Substring(0, 5)== command.Key) || ((command.Code.Length >= 6) && (command.Code.Substring(0, 6).CompareTo("Add2N ") == 0))))
                 {
-                    //do sonething;
-                    Console.WriteLine(command.Substring(0, 5));
+                    if (!command.Valid())
+                    {
+                        Console.WriteLine(command.ErrorMessage());
+                    }
+                    else
+                    {
+                        GreatInt n1 = new GreatInt(command.Number1());
+                        GreatInt n2 = new GreatInt(command.Number2());
+                        Console.WriteLine(n1.Number+" + "+n2.Number+" = "+(n1 + n2).Number);
+                    }
+                    
                 }
                 else
                 {
-                    if (command == "exit")
+                    if (command.Code == "exit")
                     {
                         exit = true;
                     }else
-                        Console.WriteLine("System Message: Command not found\n");
+                        Console.WriteLine("System Message: Command's not found");
                 }
 
                 
