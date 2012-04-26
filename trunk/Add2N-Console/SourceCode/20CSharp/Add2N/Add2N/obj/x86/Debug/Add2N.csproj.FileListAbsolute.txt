@@ -5,3 +5,8 @@ C:\Users\Admin\Desktop\New folder\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\
 C:\Users\Admin\Desktop\New folder\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
 D:\Hoc tap\Open one edu\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.exe
 D:\Hoc tap\Open one edu\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
+C:\Users\Luina\Desktop\CTKS\Seminar\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.exe
+C:\Users\Luina\Desktop\CTKS\Seminar\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\Add2N.pdb
+C:\Users\Luina\Desktop\CTKS\Seminar\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\bin\Debug\Add2N.exe
+C:\Users\Luina\Desktop\CTKS\Seminar\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\bin\Debug\Add2N.pdb
+C:\Users\Luina\Desktop\CTKS\Seminar\Add2N-Console\SourceCode\20CSharp\Add2N\Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
