@@ -1,0 +1,23 @@
+public BigInterger(int [] a, int [] b, int[] c){
+	this.NumC = a;
+	this.NumD = b;
+	this.result = c;
+}//Constructor
+public static void setNumC(int[] a){
+	NumC = a;
+}//Mutator NumC
+public static void setNumD(int[] b){
+	NumD = b;
+}//Mutator NumD
+
+public static void set Result (int[] c){
+	result = c;
+}//Mutator NumC
+public static int[] converArray(String b){
+	int [] arr = new int[b.length()];
+	for(int i =0; i<b.length();i++){
+		arr[i] = Character.digit(b.charAt(i),10);
+	}
+	return arr;
+}
+//end of toArray
