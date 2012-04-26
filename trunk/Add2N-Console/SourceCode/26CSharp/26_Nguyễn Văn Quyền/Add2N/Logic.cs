@@ -43,8 +43,10 @@ namespace Add2N
             {
                 if (In[2][i] < 48 ||In[2][i] > 57)
                 {
+                    ok = false;
                     if (fault == null)
                         fault += "\n" + In[2] + " khong hop le";
+                    break;
                     if (fault.Contains(In[2] + " khong hop le") == false)
                         fault += In[2] + " khong hop le\n";
                     ok = false;
@@ -56,12 +58,15 @@ namespace Add2N
         public static string Out(string[] In)
         {
             int nho = 0, tong;
+            string[] temp = new string[3];
+            temp[1] = In[1];
+            temp[2] = In[2];
             string kq = "";
-            while (In[1].Length < In[2].Length) In[1] = '0' + In[1];//thêm số 0 vào đằng trước các số ngắn hơn để dễ thực hiện phép cộng
-            while (In[2].Length < In[1].Length) In[2] = '0' + In[2];//
-            for (int i = In[1].Length - 1; i >= 0; i--)
+            while (temp[1].Length < temp[2].Length) temp[1] = '0' + temp[1];//thêm số 0 vào đằng trước các số ngắn hơn để dễ thực hiện phép cộng
+            while (temp[2].Length < temp[1].Length) temp[2] = '0' + temp[2];//
+            for (int i = temp[1].Length - 1; i >= 0; i--)
             {
-                tong = In[1][i] + In[2][i] - 96 + nho;
+                tong = temp[1][i] + temp[2][i] - 96 + nho;
                 kq = (char)((tong % 10) + 48) + kq;
                 nho = tong / 10;
             }
