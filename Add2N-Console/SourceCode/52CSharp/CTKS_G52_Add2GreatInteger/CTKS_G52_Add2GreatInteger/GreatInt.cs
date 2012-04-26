@@ -28,7 +28,7 @@ namespace CTKS_GreatInteger
             for (int i = GInt1.Length - 1, j = GInt2.Number.Length - 1; (j >= 0) || (i >= 0); i--, j--)
             {
                 //Quy đồi chữ số kiểu char ra kiểu int để cộng
-                int IntNum1 = (i < 0) ? IntNum1 = 48 : (int)GInt1.Number[i];
+                int IntNum1 = (i < 0) ? IntNum1 = 48 : (int)GInt1.Number[i]; // nếu số thứ nhất ngắn hơn số thứ hai, sẽ cộng các chữ số của lại của số thứ hai với 0 ('0' đổi ra int 48)
                 int IntNum2 = (j < 0) ? IntNum2 = 48 : (int)GInt2.Number[j];
                 int t = IntNum1 - 48 + IntNum2 - 48 + extra;
                 //Khi tổng 2 số không đến 10 (không có số dư) thì extra=0;
@@ -37,7 +37,7 @@ namespace CTKS_GreatInteger
                     s += (char)(t + 48);
                     extra = 0;
                 }
-                else //Còn khi cộng có số dư thì extra =1;
+                else //Còn khi cộng tổng 2 số hơn 10 (có số dư) thì extra =1;
                 {
                     s += (char)(t - 10 + 48);
                     extra = 1;
@@ -45,8 +45,8 @@ namespace CTKS_GreatInteger
 
             }
 
-            //thêm chữ số 1 nếu tràn
-            if (extra == 1)
+            //thêm chữ số 1 nếu tràn. VD: 99+19 = 118
+            if(extra==1)
             {
                 s += "1";
             }
