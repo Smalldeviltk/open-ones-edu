@@ -10,7 +10,7 @@ namespace Add2N
         static void Main(string[] args)
         {
             Console.WriteLine("\n********** Add2N la chuong trinh cong 2 so nguyen duong lon **********");
-            Console.WriteLine("\nMoi bam nhap theo cu phap sau : Add2N <sothunhat> <sothuhai> \n");
+            Console.WriteLine("\nMoi ban nhap theo cu phap sau : Add2N <sothunhat> <sothuhai> \n");
             string s = "";
             {
                 s = Logic.Test(View.In());
