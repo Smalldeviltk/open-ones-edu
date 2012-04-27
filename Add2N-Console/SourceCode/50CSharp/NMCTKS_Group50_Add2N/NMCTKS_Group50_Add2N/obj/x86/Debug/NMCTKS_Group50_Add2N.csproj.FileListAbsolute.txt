@@ -1,0 +1,7 @@
+c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\bin\Debug\NMCTKS_Group50_Add2N.exe
+c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\bin\Debug\NMCTKS_Group50_Add2N.pdb
+c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.exe
+c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.pdb
+C:\Users\YUKEI\Desktop\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.exe
+C:\Users\YUKEI\Desktop\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.pdb
