@@ -1,0 +1,5 @@
+c:\users\duyhai_uit\documents\visual studio 2010\Projects\[51]_Add2N_PHANDUYHAI_10520593\[51]_Add2N_PHANDUYHAI_10520593\bin\Debug\[51]_Add2N_PHANDUYHAI_10520593.exe
+c:\users\duyhai_uit\documents\visual studio 2010\Projects\[51]_Add2N_PHANDUYHAI_10520593\[51]_Add2N_PHANDUYHAI_10520593\bin\Debug\[51]_Add2N_PHANDUYHAI_10520593.pdb
+c:\users\duyhai_uit\documents\visual studio 2010\Projects\[51]_Add2N_PHANDUYHAI_10520593\[51]_Add2N_PHANDUYHAI_10520593\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\duyhai_uit\documents\visual studio 2010\Projects\[51]_Add2N_PHANDUYHAI_10520593\[51]_Add2N_PHANDUYHAI_10520593\obj\x86\Debug\[51]_Add2N_PHANDUYHAI_10520593.exe
+c:\users\duyhai_uit\documents\visual studio 2010\Projects\[51]_Add2N_PHANDUYHAI_10520593\[51]_Add2N_PHANDUYHAI_10520593\obj\x86\Debug\[51]_Add2N_PHANDUYHAI_10520593.pdb
