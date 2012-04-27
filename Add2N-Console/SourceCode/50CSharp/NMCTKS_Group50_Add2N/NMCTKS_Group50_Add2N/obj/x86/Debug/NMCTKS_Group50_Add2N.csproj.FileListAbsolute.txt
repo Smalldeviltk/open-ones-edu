@@ -5,3 +5,5 @@ c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_
 c:\users\tuan\documents\visual studio 2010\Projects\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.pdb
 C:\Users\YUKEI\Desktop\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.exe
 C:\Users\YUKEI\Desktop\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.pdb
+C:\Users\Tuan\Desktop\New folder (3)\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.exe
+C:\Users\Tuan\Desktop\New folder (3)\NMCTKS_Group50_Add2N\NMCTKS_Group50_Add2N\obj\x86\Debug\NMCTKS_Group50_Add2N.pdb
