@@ -11,8 +11,8 @@
 /// Modification Logs:
 ///     DATE            AUTHOR              DESCRIPTION
 /// -----------------------------------------------------
-///  23/04/2012     Vũ Minh Tuấn           Creating
-///                 Vũ Văn Hoàng		   Creating
+///  23/04/2012     Vũ Văn Hoàng           Creating
+///                 Ngô An Ninh		   Creating
 ///
 //////////////////////////////////////////////////////////////////////////
 
