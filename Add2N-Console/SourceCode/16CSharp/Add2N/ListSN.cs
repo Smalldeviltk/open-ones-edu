@@ -28,17 +28,30 @@ namespace Add2N
                 nodeCurrent = value;
             }
         }
-		
+		/// <summary>
+		/// Hàm tạo danh sách liên kết với các node kiểu int, từ chuỗi nhập
+		/// </summary>
+		/// <param name="strInput">Chuỗi nhập vào</param>
         public ListSN(string strInput = null)
         {
             intCount = 0;
+            bool zeroInHead = true;
 
             if (strInput != null)
             {
+                // Chỉ số
+                int signIndex = 0;
+
+                while (strInput[signIndex] == '0')
+                {
+                    signIndex++;
+                }
+
                 int i = strInput.Length - 1;
+                
                 try
                 {
-                    while (i >= 0)
+                    while (i >= signIndex)
                     {
                         AddNext(Int32.Parse(new string(strInput[i], 1)));
                         i--;
@@ -54,6 +67,10 @@ namespace Add2N
                 nodeCurrent = null;
         }        
 
+        /// <summary>
+        /// Hàm thêm một node vào danh sách
+        /// </summary>
+        /// <param name="intNode">Node cần thêm</param>
         public void AddNext(int intNode)
         {
             if (nodeCurrent != null)
@@ -68,6 +85,10 @@ namespace Add2N
             intCount++;
         }
 
+        /// <summary>
+        /// Hàm trả về Node kế tiếp của Node hiện tại
+        /// </summary>
+        /// <returns>Node kế tiếp</returns>
         public Node ToNext()
         {
            if (nodeCurrent != null)
@@ -85,6 +106,10 @@ namespace Add2N
                 return (NodeCurrent = null);
         }
 
+        /// <summary>
+        /// Hàm trả về Node đầu tiên của danh sách
+        /// </summary>
+        /// <returns>Node đầu tiên</returns>
         public Node ToFirst()
         {
             if (nodeCurrent.NodePrev == null)
@@ -96,6 +121,10 @@ namespace Add2N
             return nodeCurrent;
         }
 
+        /// <summary>
+        /// Hàm trả về chuỗi giá trị của danh sách
+        /// </summary>
+        /// <returns>Chuỗi trả về</returns>
         public string GetValueList()
         {
             string strResult = "";
