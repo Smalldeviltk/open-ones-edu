@@ -54,7 +54,7 @@ void main(int argc, char* argv[])
 		{
 			cout<<argv[2];
 		}
-		cout<<" khong hop le"<<endl;
+		cout<<" khong hop le."<<endl;
 	}
 	else
 	{
