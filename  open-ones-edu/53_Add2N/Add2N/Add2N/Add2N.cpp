@@ -35,6 +35,81 @@ public:
 	BigInt add(BigInt b);//ham cong hai so nguyen lon
 };
 
+//ham khoi tao so nguyen lon
+//Ly thuc hien
+BigInt::BigInt()
+{
+	for(int i = 0; i <100; i++)
+	{
+		this->num[i]=0;
+	}
+	this->len = 0;
+}
+
+//ham nhap so nguyen lon
+//Ly thuc hien
+void BigInt::input(char *s)
+{
+	this->len = strlen(s);
+	for(int i=0; i<this->len; i++)
+	{
+		this->num[i] = s[this->len-i-1] - '0';
+	}
+}
+
+//ham kiem tra xem co chua nhung ki tu khong phai la ki tu so khong?
+//Tuan thuc hien
+int BigInt::checkError(char *s)
+ {
+	 char *t = new char[100];
+	 int j=0;
+	 for(int i=0; i<this->len; i++)
+	 {
+		 if(s[i]<'0' || s[i]>'9')
+		 {
+			 return 1;
+		 }
+	 }
+	 return 0;
+ }
+	
+//ham xuat ket qua cong
+//Truyen thuc hien
+void BigInt::ouput()
+{
+	for(int i=0; i<this->len; i++)
+	{
+		cout<<this->num[this->len-i-1];
+	}
+}
+
+//ham cong so nguyen lon
+//Liem thuc hien
+BigInt BigInt::add(BigInt b)
+{
+	BigInt tam;
+	int n= (this->len > b.len)?this->len:b.len;
+	tam.len = n;
+	int m=0;//bien nho
+	for(int i=0; i<n;i++)
+	{
+		tam.num[i]=this->num[i]+b.num[i]+m;
+		if(tam.num[i]>9)
+		{
+			tam.num[i]-=10;
+			m=1;
+		}
+		else
+			m=0;
+	}
+	if(m)
+	{
+		tam.num[tam.len]=1;
+		tam.len+=1;
+		
+	}
+	return tam;
+}
 
 //ham main
 //Duong thuc hien
