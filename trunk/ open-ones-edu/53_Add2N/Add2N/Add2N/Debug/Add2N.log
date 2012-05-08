@@ -1,4 +1,4 @@
-﻿Build started 5/6/2012 11:13:57 PM.
+﻿Build started 5/8/2012 7:52:31 AM.
      1>Project "C:\Users\phamduong\Desktop\ open-ones-edu\53_Add2N\Add2N\Add2N\Add2N.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Add2N.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -23,4 +23,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.08
+Time Elapsed 00:00:04.20
